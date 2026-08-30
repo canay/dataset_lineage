@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this software or its released results, please cite it using the metadata below."
+title: "Replication package for an auditable dataset-lineage protocol"
+type: software
+authors:
+  - family-names: Canay
+    given-names: Ozkan
+repository-code: "https://github.com/canay/dataset_lineage"
+url: "https://github.com/canay/dataset_lineage"
+license: MIT
+date-released: 2026-08-30
+keywords:
+  - dataset lineage
+  - data provenance
+  - benchmark auditing
+  - data-centric evaluation
+  - machine learning
+preferred-citation:
+  type: article
+  title: "An auditable dataset-lineage protocol for measuring model-behavior changes across reconstructed provenance and preprocessing decisions"
+  authors:
+    - family-names: Canay
+      given-names: Ozkan
+  year: 2026

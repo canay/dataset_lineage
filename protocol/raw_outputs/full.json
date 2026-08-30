@@ -1,0 +1,1246 @@
+{
+  "arm": "FULL",
+  "carrier_validation": {
+    "case_count": 18,
+    "field_count": 11,
+    "field_evidence_binding_count": 90,
+    "gold_fields_present": false,
+    "passed": true,
+    "record_set_count": 1,
+    "required_field_evidence_binding_count": 90,
+    "root_type_count": 2
+  },
+  "case_count": 18,
+  "config_sha256": "21906AA265842D2184E09EA7D86B2C8F6DBB414BB2C435494DD39F197666D5B1",
+  "decisions": [
+    {
+      "claim_decisions": {
+        "individual_churn_same_task": "forbidden",
+        "lineage_fact": "allowed",
+        "own_test_difficulty": "forbidden",
+        "paired_aggregate_effect": "forbidden",
+        "same_record_decision_difference_across_targets": "forbidden",
+        "same_task_superiority": "forbidden",
+        "target_sensitivity": "forbidden"
+      },
+      "comparison_id": "adult_openml_v2_vs_uci_concat",
+      "decision_class": "lineage_only",
+      "evidence_artifact_ids": [
+        "adult_lineage",
+        "primary_design_code"
+      ],
+      "field_evidence_closure": {
+        "bindings": {
+          "behavioral_execution": [
+            "adult_lineage",
+            "primary_design_code"
+          ],
+          "evaluation_alignment": [
+            "adult_lineage",
+            "primary_design_code"
+          ],
+          "provenance_status": [
+            "adult_lineage",
+            "primary_design_code"
+          ],
+          "row_correspondence": [
+            "adult_lineage",
+            "primary_design_code"
+          ],
+          "target_semantics": [
+            "adult_lineage",
+            "primary_design_code"
+          ]
+        },
+        "passed": true,
+        "required_field_count": 5,
+        "valid_field_count": 5
+      },
+      "gate_trace": [
+        {
+          "gate": "provenance",
+          "passed": true,
+          "value": "verified"
+        },
+        {
+          "gate": "executed_evidence",
+          "passed": false,
+          "value": "absent"
+        },
+        {
+          "gate": "lineage_fact_only",
+          "passed": true,
+          "value": "identity_without_execution"
+        }
+      ]
+    },
+    {
+      "claim_decisions": {
+        "individual_churn_same_task": "allowed",
+        "lineage_fact": "allowed",
+        "own_test_difficulty": "forbidden",
+        "paired_aggregate_effect": "allowed",
+        "same_record_decision_difference_across_targets": "forbidden",
+        "same_task_superiority": "forbidden",
+        "target_sensitivity": "forbidden"
+      },
+      "comparison_id": "adult_v0_vs_v1_workforce",
+      "decision_class": "paired_behavior",
+      "evidence_artifact_ids": [
+        "adult_behavior",
+        "primary_unit_metrics",
+        "primary_design_code"
+      ],
+      "field_evidence_closure": {
+        "bindings": {
+          "behavioral_execution": [
+            "adult_behavior",
+            "primary_unit_metrics",
+            "primary_design_code"
+          ],
+          "evaluation_alignment": [
+            "adult_behavior",
+            "primary_unit_metrics",
+            "primary_design_code"
+          ],
+          "provenance_status": [
+            "primary_design_code"
+          ],
+          "row_correspondence": [
+            "adult_behavior",
+            "primary_design_code"
+          ],
+          "target_semantics": [
+            "adult_behavior",
+            "primary_design_code"
+          ]
+        },
+        "passed": true,
+        "required_field_count": 5,
+        "valid_field_count": 5
+      },
+      "gate_trace": [
+        {
+          "gate": "provenance",
+          "passed": true,
+          "value": "verified"
+        },
+        {
+          "gate": "executed_evidence",
+          "passed": true,
+          "value": "verified"
+        },
+        {
+          "gate": "pairing",
+          "passed": true,
+          "value": "verified|same_frozen_records"
+        },
+        {
+          "gate": "target_semantics",
+          "passed": true,
+          "value": "equivalent"
+        }
+      ]
+    },
+    {
+      "claim_decisions": {
+        "individual_churn_same_task": "allowed",
+        "lineage_fact": "allowed",
+        "own_test_difficulty": "forbidden",
+        "paired_aggregate_effect": "allowed",
+        "same_record_decision_difference_across_targets": "forbidden",
+        "same_task_superiority": "forbidden",
+        "target_sensitivity": "forbidden"
+      },
+      "comparison_id": "adult_v0_vs_v3a_drop_missing",
+      "decision_class": "paired_behavior",
+      "evidence_artifact_ids": [
+        "adult_behavior",
+        "primary_unit_metrics",
+        "primary_design_code"
+      ],
+      "field_evidence_closure": {
+        "bindings": {
+          "behavioral_execution": [
+            "adult_behavior",
+            "primary_unit_metrics",
+            "primary_design_code"
+          ],
+          "evaluation_alignment": [
+            "adult_behavior",
+            "primary_unit_metrics",
+            "primary_design_code"
+          ],
+          "provenance_status": [
+            "primary_design_code"
+          ],
+          "row_correspondence": [
+            "adult_behavior",
+            "primary_design_code"
+          ],
+          "target_semantics": [
+            "adult_behavior",
+            "primary_design_code"
+          ]
+        },
+        "passed": true,
+        "required_field_count": 5,
+        "valid_field_count": 5
+      },
+      "gate_trace": [
+        {
+          "gate": "provenance",
+          "passed": true,
+          "value": "verified"
+        },
+        {
+          "gate": "executed_evidence",
+          "passed": true,
+          "value": "verified"
+        },
+        {
+          "gate": "pairing",
+          "passed": true,
+          "value": "verified|same_frozen_records"
+        },
+        {
+          "gate": "target_semantics",
+          "passed": true,
+          "value": "equivalent"
+        }
+      ]
+    },
+    {
+      "claim_decisions": {
+        "individual_churn_same_task": "allowed",
+        "lineage_fact": "allowed",
+        "own_test_difficulty": "forbidden",
+        "paired_aggregate_effect": "allowed",
+        "same_record_decision_difference_across_targets": "forbidden",
+        "same_task_superiority": "forbidden",
+        "target_sensitivity": "forbidden"
+      },
+      "comparison_id": "adult_v0_vs_v3b_mode_impute",
+      "decision_class": "paired_behavior",
+      "evidence_artifact_ids": [
+        "adult_behavior",
+        "primary_unit_metrics",
+        "primary_design_code"
+      ],
+      "field_evidence_closure": {
+        "bindings": {
+          "behavioral_execution": [
+            "adult_behavior",
+            "primary_unit_metrics",
+            "primary_design_code"
+          ],
+          "evaluation_alignment": [
+            "adult_behavior",
+            "primary_unit_metrics",
+            "primary_design_code"
+          ],
+          "provenance_status": [
+            "primary_design_code"
+          ],
+          "row_correspondence": [
+            "adult_behavior",
+            "primary_design_code"
+          ],
+          "target_semantics": [
+            "adult_behavior",
+            "primary_design_code"
+          ]
+        },
+        "passed": true,
+        "required_field_count": 5,
+        "valid_field_count": 5
+      },
+      "gate_trace": [
+        {
+          "gate": "provenance",
+          "passed": true,
+          "value": "verified"
+        },
+        {
+          "gate": "executed_evidence",
+          "passed": true,
+          "value": "verified"
+        },
+        {
+          "gate": "pairing",
+          "passed": true,
+          "value": "verified|same_frozen_records"
+        },
+        {
+          "gate": "target_semantics",
+          "passed": true,
+          "value": "equivalent"
+        }
+      ]
+    },
+    {
+      "claim_decisions": {
+        "individual_churn_same_task": "allowed",
+        "lineage_fact": "allowed",
+        "own_test_difficulty": "forbidden",
+        "paired_aggregate_effect": "allowed",
+        "same_record_decision_difference_across_targets": "forbidden",
+        "same_task_superiority": "forbidden",
+        "target_sensitivity": "forbidden"
+      },
+      "comparison_id": "adult_v0_vs_v4_deduplicate",
+      "decision_class": "paired_behavior",
+      "evidence_artifact_ids": [
+        "adult_behavior",
+        "primary_unit_metrics",
+        "primary_design_code"
+      ],
+      "field_evidence_closure": {
+        "bindings": {
+          "behavioral_execution": [
+            "adult_behavior",
+            "primary_unit_metrics",
+            "primary_design_code"
+          ],
+          "evaluation_alignment": [
+            "adult_behavior",
+            "primary_unit_metrics",
+            "primary_design_code"
+          ],
+          "provenance_status": [
+            "primary_design_code"
+          ],
+          "row_correspondence": [
+            "adult_behavior",
+            "primary_design_code"
+          ],
+          "target_semantics": [
+            "adult_behavior",
+            "primary_design_code"
+          ]
+        },
+        "passed": true,
+        "required_field_count": 5,
+        "valid_field_count": 5
+      },
+      "gate_trace": [
+        {
+          "gate": "provenance",
+          "passed": true,
+          "value": "verified"
+        },
+        {
+          "gate": "executed_evidence",
+          "passed": true,
+          "value": "verified"
+        },
+        {
+          "gate": "pairing",
+          "passed": true,
+          "value": "verified|same_frozen_records"
+        },
+        {
+          "gate": "target_semantics",
+          "passed": true,
+          "value": "equivalent"
+        }
+      ]
+    },
+    {
+      "claim_decisions": {
+        "individual_churn_same_task": "allowed",
+        "lineage_fact": "allowed",
+        "own_test_difficulty": "forbidden",
+        "paired_aggregate_effect": "allowed",
+        "same_record_decision_difference_across_targets": "forbidden",
+        "same_task_superiority": "forbidden",
+        "target_sensitivity": "forbidden"
+      },
+      "comparison_id": "adult_v0_vs_v5a_uniform_split",
+      "decision_class": "paired_behavior",
+      "evidence_artifact_ids": [
+        "adult_behavior",
+        "primary_unit_metrics",
+        "primary_design_code"
+      ],
+      "field_evidence_closure": {
+        "bindings": {
+          "behavioral_execution": [
+            "adult_behavior",
+            "primary_unit_metrics",
+            "primary_design_code"
+          ],
+          "evaluation_alignment": [
+            "adult_behavior",
+            "primary_unit_metrics",
+            "primary_design_code"
+          ],
+          "provenance_status": [
+            "primary_design_code"
+          ],
+          "row_correspondence": [
+            "adult_behavior",
+            "primary_design_code"
+          ],
+          "target_semantics": [
+            "adult_behavior",
+            "primary_design_code"
+          ]
+        },
+        "passed": true,
+        "required_field_count": 5,
+        "valid_field_count": 5
+      },
+      "gate_trace": [
+        {
+          "gate": "provenance",
+          "passed": true,
+          "value": "verified"
+        },
+        {
+          "gate": "executed_evidence",
+          "passed": true,
+          "value": "verified"
+        },
+        {
+          "gate": "pairing",
+          "passed": true,
+          "value": "verified|same_frozen_records"
+        },
+        {
+          "gate": "target_semantics",
+          "passed": true,
+          "value": "equivalent"
+        }
+      ]
+    },
+    {
+      "claim_decisions": {
+        "individual_churn_same_task": "allowed",
+        "lineage_fact": "allowed",
+        "own_test_difficulty": "forbidden",
+        "paired_aggregate_effect": "allowed",
+        "same_record_decision_difference_across_targets": "forbidden",
+        "same_task_superiority": "forbidden",
+        "target_sensitivity": "forbidden"
+      },
+      "comparison_id": "adult_v0_vs_v5b_historical_split",
+      "decision_class": "paired_behavior",
+      "evidence_artifact_ids": [
+        "adult_behavior",
+        "primary_unit_metrics",
+        "primary_design_code"
+      ],
+      "field_evidence_closure": {
+        "bindings": {
+          "behavioral_execution": [
+            "adult_behavior",
+            "primary_unit_metrics",
+            "primary_design_code"
+          ],
+          "evaluation_alignment": [
+            "adult_behavior",
+            "primary_unit_metrics",
+            "primary_design_code"
+          ],
+          "provenance_status": [
+            "primary_design_code"
+          ],
+          "row_correspondence": [
+            "adult_behavior",
+            "primary_design_code"
+          ],
+          "target_semantics": [
+            "adult_behavior",
+            "primary_design_code"
+          ]
+        },
+        "passed": true,
+        "required_field_count": 5,
+        "valid_field_count": 5
+      },
+      "gate_trace": [
+        {
+          "gate": "provenance",
+          "passed": true,
+          "value": "verified"
+        },
+        {
+          "gate": "executed_evidence",
+          "passed": true,
+          "value": "verified"
+        },
+        {
+          "gate": "pairing",
+          "passed": true,
+          "value": "verified|same_frozen_records"
+        },
+        {
+          "gate": "target_semantics",
+          "passed": true,
+          "value": "equivalent"
+        }
+      ]
+    },
+    {
+      "claim_decisions": {
+        "individual_churn_same_task": "forbidden",
+        "lineage_fact": "forbidden",
+        "own_test_difficulty": "forbidden",
+        "paired_aggregate_effect": "forbidden",
+        "same_record_decision_difference_across_targets": "forbidden",
+        "same_task_superiority": "forbidden",
+        "target_sensitivity": "forbidden"
+      },
+      "comparison_id": "adult_original_extraction_relaxation",
+      "decision_class": "not_identifiable",
+      "evidence_artifact_ids": [
+        "adult_lineage",
+        "primary_design_code"
+      ],
+      "field_evidence_closure": {
+        "bindings": {
+          "behavioral_execution": [
+            "adult_lineage",
+            "primary_design_code"
+          ],
+          "evaluation_alignment": [
+            "adult_lineage",
+            "primary_design_code"
+          ],
+          "provenance_status": [
+            "adult_lineage",
+            "primary_design_code"
+          ],
+          "row_correspondence": [
+            "adult_lineage",
+            "primary_design_code"
+          ],
+          "target_semantics": [
+            "adult_lineage",
+            "primary_design_code"
+          ]
+        },
+        "passed": true,
+        "required_field_count": 5,
+        "valid_field_count": 5
+      },
+      "gate_trace": [
+        {
+          "gate": "provenance",
+          "passed": false,
+          "value": "partial"
+        }
+      ]
+    },
+    {
+      "claim_decisions": {
+        "individual_churn_same_task": "allowed",
+        "lineage_fact": "allowed",
+        "own_test_difficulty": "forbidden",
+        "paired_aggregate_effect": "allowed",
+        "same_record_decision_difference_across_targets": "forbidden",
+        "same_task_superiority": "forbidden",
+        "target_sensitivity": "forbidden"
+      },
+      "comparison_id": "compas_c0_vs_c1_no_window",
+      "decision_class": "paired_behavior",
+      "evidence_artifact_ids": [
+        "compas_summary",
+        "compas_deltas",
+        "compas_design_code"
+      ],
+      "field_evidence_closure": {
+        "bindings": {
+          "behavioral_execution": [
+            "compas_summary",
+            "compas_deltas",
+            "compas_design_code"
+          ],
+          "evaluation_alignment": [
+            "compas_summary",
+            "compas_deltas",
+            "compas_design_code"
+          ],
+          "provenance_status": [
+            "compas_summary",
+            "compas_design_code"
+          ],
+          "row_correspondence": [
+            "compas_summary",
+            "compas_deltas",
+            "compas_design_code"
+          ],
+          "target_semantics": [
+            "compas_summary",
+            "compas_deltas",
+            "compas_design_code"
+          ]
+        },
+        "passed": true,
+        "required_field_count": 5,
+        "valid_field_count": 5
+      },
+      "gate_trace": [
+        {
+          "gate": "provenance",
+          "passed": true,
+          "value": "verified"
+        },
+        {
+          "gate": "executed_evidence",
+          "passed": true,
+          "value": "verified"
+        },
+        {
+          "gate": "pairing",
+          "passed": true,
+          "value": "verified|same_frozen_records"
+        },
+        {
+          "gate": "target_semantics",
+          "passed": true,
+          "value": "equivalent"
+        }
+      ]
+    },
+    {
+      "claim_decisions": {
+        "individual_churn_same_task": "forbidden",
+        "lineage_fact": "allowed",
+        "own_test_difficulty": "forbidden",
+        "paired_aggregate_effect": "forbidden",
+        "same_record_decision_difference_across_targets": "allowed",
+        "same_task_superiority": "forbidden",
+        "target_sensitivity": "allowed"
+      },
+      "comparison_id": "compas_c0_vs_c2_is_recid",
+      "decision_class": "target_sensitivity",
+      "evidence_artifact_ids": [
+        "compas_summary",
+        "compas_deltas",
+        "compas_design_code"
+      ],
+      "field_evidence_closure": {
+        "bindings": {
+          "behavioral_execution": [
+            "compas_summary",
+            "compas_deltas",
+            "compas_design_code"
+          ],
+          "evaluation_alignment": [
+            "compas_summary",
+            "compas_deltas",
+            "compas_design_code"
+          ],
+          "provenance_status": [
+            "compas_summary",
+            "compas_design_code"
+          ],
+          "row_correspondence": [
+            "compas_summary",
+            "compas_deltas",
+            "compas_design_code"
+          ],
+          "target_semantics": [
+            "compas_summary",
+            "compas_deltas",
+            "compas_design_code"
+          ]
+        },
+        "passed": true,
+        "required_field_count": 5,
+        "valid_field_count": 5
+      },
+      "gate_trace": [
+        {
+          "gate": "provenance",
+          "passed": true,
+          "value": "verified"
+        },
+        {
+          "gate": "executed_evidence",
+          "passed": true,
+          "value": "verified"
+        },
+        {
+          "gate": "pairing",
+          "passed": true,
+          "value": "verified|same_frozen_records"
+        },
+        {
+          "gate": "target_semantics",
+          "passed": true,
+          "value": "different"
+        }
+      ]
+    },
+    {
+      "claim_decisions": {
+        "individual_churn_same_task": "allowed",
+        "lineage_fact": "allowed",
+        "own_test_difficulty": "forbidden",
+        "paired_aggregate_effect": "allowed",
+        "same_record_decision_difference_across_targets": "forbidden",
+        "same_task_superiority": "forbidden",
+        "target_sensitivity": "forbidden"
+      },
+      "comparison_id": "compas_c0_vs_c3_uniform_split",
+      "decision_class": "paired_behavior",
+      "evidence_artifact_ids": [
+        "compas_summary",
+        "compas_deltas",
+        "compas_design_code"
+      ],
+      "field_evidence_closure": {
+        "bindings": {
+          "behavioral_execution": [
+            "compas_summary",
+            "compas_deltas",
+            "compas_design_code"
+          ],
+          "evaluation_alignment": [
+            "compas_summary",
+            "compas_deltas",
+            "compas_design_code"
+          ],
+          "provenance_status": [
+            "compas_summary",
+            "compas_design_code"
+          ],
+          "row_correspondence": [
+            "compas_summary",
+            "compas_deltas",
+            "compas_design_code"
+          ],
+          "target_semantics": [
+            "compas_summary",
+            "compas_deltas",
+            "compas_design_code"
+          ]
+        },
+        "passed": true,
+        "required_field_count": 5,
+        "valid_field_count": 5
+      },
+      "gate_trace": [
+        {
+          "gate": "provenance",
+          "passed": true,
+          "value": "verified"
+        },
+        {
+          "gate": "executed_evidence",
+          "passed": true,
+          "value": "verified"
+        },
+        {
+          "gate": "pairing",
+          "passed": true,
+          "value": "verified|same_frozen_records"
+        },
+        {
+          "gate": "target_semantics",
+          "passed": true,
+          "value": "equivalent"
+        }
+      ]
+    },
+    {
+      "claim_decisions": {
+        "individual_churn_same_task": "forbidden",
+        "lineage_fact": "allowed",
+        "own_test_difficulty": "forbidden",
+        "paired_aggregate_effect": "forbidden",
+        "same_record_decision_difference_across_targets": "allowed",
+        "same_task_superiority": "forbidden",
+        "target_sensitivity": "allowed"
+      },
+      "comparison_id": "acsincome_t50_vs_t25",
+      "decision_class": "target_sensitivity",
+      "evidence_artifact_ids": [
+        "acs_deltas",
+        "primary_unit_metrics",
+        "primary_design_code"
+      ],
+      "field_evidence_closure": {
+        "bindings": {
+          "behavioral_execution": [
+            "acs_deltas",
+            "primary_unit_metrics",
+            "primary_design_code"
+          ],
+          "evaluation_alignment": [
+            "acs_deltas",
+            "primary_unit_metrics",
+            "primary_design_code"
+          ],
+          "provenance_status": [
+            "primary_design_code"
+          ],
+          "row_correspondence": [
+            "acs_deltas",
+            "primary_design_code"
+          ],
+          "target_semantics": [
+            "acs_deltas",
+            "primary_design_code"
+          ]
+        },
+        "passed": true,
+        "required_field_count": 5,
+        "valid_field_count": 5
+      },
+      "gate_trace": [
+        {
+          "gate": "provenance",
+          "passed": true,
+          "value": "verified"
+        },
+        {
+          "gate": "executed_evidence",
+          "passed": true,
+          "value": "verified"
+        },
+        {
+          "gate": "pairing",
+          "passed": true,
+          "value": "verified|same_frozen_records"
+        },
+        {
+          "gate": "target_semantics",
+          "passed": true,
+          "value": "different"
+        }
+      ]
+    },
+    {
+      "claim_decisions": {
+        "individual_churn_same_task": "forbidden",
+        "lineage_fact": "allowed",
+        "own_test_difficulty": "forbidden",
+        "paired_aggregate_effect": "forbidden",
+        "same_record_decision_difference_across_targets": "allowed",
+        "same_task_superiority": "forbidden",
+        "target_sensitivity": "allowed"
+      },
+      "comparison_id": "acsincome_t50_vs_t85",
+      "decision_class": "target_sensitivity",
+      "evidence_artifact_ids": [
+        "acs_deltas",
+        "primary_unit_metrics",
+        "primary_design_code"
+      ],
+      "field_evidence_closure": {
+        "bindings": {
+          "behavioral_execution": [
+            "acs_deltas",
+            "primary_unit_metrics",
+            "primary_design_code"
+          ],
+          "evaluation_alignment": [
+            "acs_deltas",
+            "primary_unit_metrics",
+            "primary_design_code"
+          ],
+          "provenance_status": [
+            "primary_design_code"
+          ],
+          "row_correspondence": [
+            "acs_deltas",
+            "primary_design_code"
+          ],
+          "target_semantics": [
+            "acs_deltas",
+            "primary_design_code"
+          ]
+        },
+        "passed": true,
+        "required_field_count": 5,
+        "valid_field_count": 5
+      },
+      "gate_trace": [
+        {
+          "gate": "provenance",
+          "passed": true,
+          "value": "verified"
+        },
+        {
+          "gate": "executed_evidence",
+          "passed": true,
+          "value": "verified"
+        },
+        {
+          "gate": "pairing",
+          "passed": true,
+          "value": "verified|same_frozen_records"
+        },
+        {
+          "gate": "target_semantics",
+          "passed": true,
+          "value": "different"
+        }
+      ]
+    },
+    {
+      "claim_decisions": {
+        "individual_churn_same_task": "forbidden",
+        "lineage_fact": "allowed",
+        "own_test_difficulty": "allowed",
+        "paired_aggregate_effect": "forbidden",
+        "same_record_decision_difference_across_targets": "forbidden",
+        "same_task_superiority": "forbidden",
+        "target_sensitivity": "forbidden"
+      },
+      "comparison_id": "german_statlog_vs_south_german",
+      "decision_class": "own_test_only",
+      "evidence_artifact_ids": [
+        "german_check",
+        "primary_unit_metrics",
+        "primary_design_code"
+      ],
+      "field_evidence_closure": {
+        "bindings": {
+          "behavioral_execution": [
+            "primary_unit_metrics",
+            "primary_design_code"
+          ],
+          "evaluation_alignment": [
+            "primary_unit_metrics",
+            "primary_design_code"
+          ],
+          "provenance_status": [
+            "german_check",
+            "primary_design_code"
+          ],
+          "row_correspondence": [
+            "german_check",
+            "primary_design_code"
+          ],
+          "target_semantics": [
+            "german_check",
+            "primary_design_code"
+          ]
+        },
+        "passed": true,
+        "required_field_count": 5,
+        "valid_field_count": 5
+      },
+      "gate_trace": [
+        {
+          "gate": "provenance",
+          "passed": true,
+          "value": "verified"
+        },
+        {
+          "gate": "executed_evidence",
+          "passed": true,
+          "value": "verified"
+        },
+        {
+          "gate": "pairing",
+          "passed": false,
+          "value": "absent|own_test_splits"
+        },
+        {
+          "gate": "own_test_boundary",
+          "passed": true,
+          "value": "absent|own_test_splits|equivalent"
+        }
+      ]
+    },
+    {
+      "claim_decisions": {
+        "individual_churn_same_task": "allowed",
+        "lineage_fact": "allowed",
+        "own_test_difficulty": "forbidden",
+        "paired_aggregate_effect": "allowed",
+        "same_record_decision_difference_across_targets": "forbidden",
+        "same_task_superiority": "forbidden",
+        "target_sensitivity": "forbidden"
+      },
+      "comparison_id": "heart_cleveland_impute_vs_drop",
+      "decision_class": "paired_behavior",
+      "evidence_artifact_ids": [
+        "heart_summary",
+        "heart_deltas",
+        "heart_design_code"
+      ],
+      "field_evidence_closure": {
+        "bindings": {
+          "behavioral_execution": [
+            "heart_summary",
+            "heart_deltas",
+            "heart_design_code"
+          ],
+          "evaluation_alignment": [
+            "heart_summary",
+            "heart_deltas",
+            "heart_design_code"
+          ],
+          "provenance_status": [
+            "heart_summary",
+            "heart_design_code"
+          ],
+          "row_correspondence": [
+            "heart_summary",
+            "heart_deltas",
+            "heart_design_code"
+          ],
+          "target_semantics": [
+            "heart_summary",
+            "heart_deltas",
+            "heart_design_code"
+          ]
+        },
+        "passed": true,
+        "required_field_count": 5,
+        "valid_field_count": 5
+      },
+      "gate_trace": [
+        {
+          "gate": "provenance",
+          "passed": true,
+          "value": "verified"
+        },
+        {
+          "gate": "executed_evidence",
+          "passed": true,
+          "value": "verified"
+        },
+        {
+          "gate": "pairing",
+          "passed": true,
+          "value": "verified|same_frozen_records"
+        },
+        {
+          "gate": "target_semantics",
+          "passed": true,
+          "value": "equivalent"
+        }
+      ]
+    },
+    {
+      "claim_decisions": {
+        "individual_churn_same_task": "allowed",
+        "lineage_fact": "allowed",
+        "own_test_difficulty": "forbidden",
+        "paired_aggregate_effect": "allowed",
+        "same_record_decision_difference_across_targets": "forbidden",
+        "same_task_superiority": "forbidden",
+        "target_sensitivity": "forbidden"
+      },
+      "comparison_id": "heart_cleveland_vs_multisite_impute",
+      "decision_class": "paired_behavior",
+      "evidence_artifact_ids": [
+        "heart_summary",
+        "heart_deltas",
+        "heart_design_code"
+      ],
+      "field_evidence_closure": {
+        "bindings": {
+          "behavioral_execution": [
+            "heart_summary",
+            "heart_deltas",
+            "heart_design_code"
+          ],
+          "evaluation_alignment": [
+            "heart_summary",
+            "heart_deltas",
+            "heart_design_code"
+          ],
+          "provenance_status": [
+            "heart_summary",
+            "heart_design_code"
+          ],
+          "row_correspondence": [
+            "heart_summary",
+            "heart_deltas",
+            "heart_design_code"
+          ],
+          "target_semantics": [
+            "heart_summary",
+            "heart_deltas",
+            "heart_design_code"
+          ]
+        },
+        "passed": true,
+        "required_field_count": 5,
+        "valid_field_count": 5
+      },
+      "gate_trace": [
+        {
+          "gate": "provenance",
+          "passed": true,
+          "value": "verified"
+        },
+        {
+          "gate": "executed_evidence",
+          "passed": true,
+          "value": "verified"
+        },
+        {
+          "gate": "pairing",
+          "passed": true,
+          "value": "verified|same_frozen_records"
+        },
+        {
+          "gate": "target_semantics",
+          "passed": true,
+          "value": "equivalent"
+        }
+      ]
+    },
+    {
+      "claim_decisions": {
+        "individual_churn_same_task": "allowed",
+        "lineage_fact": "allowed",
+        "own_test_difficulty": "forbidden",
+        "paired_aggregate_effect": "allowed",
+        "same_record_decision_difference_across_targets": "forbidden",
+        "same_task_superiority": "forbidden",
+        "target_sensitivity": "forbidden"
+      },
+      "comparison_id": "heart_cleveland_vs_multisite_drop",
+      "decision_class": "paired_behavior",
+      "evidence_artifact_ids": [
+        "heart_summary",
+        "heart_deltas",
+        "heart_design_code"
+      ],
+      "field_evidence_closure": {
+        "bindings": {
+          "behavioral_execution": [
+            "heart_summary",
+            "heart_deltas",
+            "heart_design_code"
+          ],
+          "evaluation_alignment": [
+            "heart_summary",
+            "heart_deltas",
+            "heart_design_code"
+          ],
+          "provenance_status": [
+            "heart_summary",
+            "heart_design_code"
+          ],
+          "row_correspondence": [
+            "heart_summary",
+            "heart_deltas",
+            "heart_design_code"
+          ],
+          "target_semantics": [
+            "heart_summary",
+            "heart_deltas",
+            "heart_design_code"
+          ]
+        },
+        "passed": true,
+        "required_field_count": 5,
+        "valid_field_count": 5
+      },
+      "gate_trace": [
+        {
+          "gate": "provenance",
+          "passed": true,
+          "value": "verified"
+        },
+        {
+          "gate": "executed_evidence",
+          "passed": true,
+          "value": "verified"
+        },
+        {
+          "gate": "pairing",
+          "passed": true,
+          "value": "verified|same_frozen_records"
+        },
+        {
+          "gate": "target_semantics",
+          "passed": true,
+          "value": "equivalent"
+        }
+      ]
+    },
+    {
+      "claim_decisions": {
+        "individual_churn_same_task": "forbidden",
+        "lineage_fact": "allowed",
+        "own_test_difficulty": "forbidden",
+        "paired_aggregate_effect": "forbidden",
+        "same_record_decision_difference_across_targets": "allowed",
+        "same_task_superiority": "forbidden",
+        "target_sensitivity": "allowed"
+      },
+      "comparison_id": "heart_any_vs_severe_target",
+      "decision_class": "target_sensitivity",
+      "evidence_artifact_ids": [
+        "heart_summary",
+        "heart_deltas",
+        "heart_design_code"
+      ],
+      "field_evidence_closure": {
+        "bindings": {
+          "behavioral_execution": [
+            "heart_summary",
+            "heart_deltas",
+            "heart_design_code"
+          ],
+          "evaluation_alignment": [
+            "heart_summary",
+            "heart_deltas",
+            "heart_design_code"
+          ],
+          "provenance_status": [
+            "heart_summary",
+            "heart_design_code"
+          ],
+          "row_correspondence": [
+            "heart_summary",
+            "heart_deltas",
+            "heart_design_code"
+          ],
+          "target_semantics": [
+            "heart_summary",
+            "heart_deltas",
+            "heart_design_code"
+          ]
+        },
+        "passed": true,
+        "required_field_count": 5,
+        "valid_field_count": 5
+      },
+      "gate_trace": [
+        {
+          "gate": "provenance",
+          "passed": true,
+          "value": "verified"
+        },
+        {
+          "gate": "executed_evidence",
+          "passed": true,
+          "value": "verified"
+        },
+        {
+          "gate": "pairing",
+          "passed": true,
+          "value": "verified|same_frozen_records"
+        },
+        {
+          "gate": "target_semantics",
+          "passed": true,
+          "value": "different"
+        }
+      ]
+    }
+  ],
+  "input_sha256": "F424008182A001D9189228F488B7962738C4901E3DEFE4B1122B64923D726D5D",
+  "jsonld_processor_validation": {
+    "check_type": "PRE_GATE_STANDARD_JSONLD_PROCESSOR_CHECK",
+    "input_sha256": "F424008182A001D9189228F488B7962738C4901E3DEFE4B1122B64923D726D5D",
+    "network_document_loader_used": false,
+    "pyld_version": "2.0.4",
+    "status": "PASS"
+  },
+  "v1_classifier_sha256": "60CED9C7B8C3131D59D106E059E76AFC3913392B499790D9AE232A6A809ECEF2"
+}

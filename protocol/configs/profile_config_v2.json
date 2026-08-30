@@ -1,0 +1,49 @@
+{
+  "metadata": {
+    "date_time": "2026-08-26 16:37 +03:00",
+    "tool": "Codex",
+    "model": "GPT-5",
+    "operation_id": "f04-behavioral-lineage-profile-validation-v2-20260826",
+    "profile_version": "2.0.0-candidate"
+  },
+  "classes": {
+    "paired_behavior": {"allowed_claims": ["lineage_fact", "paired_aggregate_effect", "individual_churn_same_task"]},
+    "target_sensitivity": {"allowed_claims": ["lineage_fact", "target_sensitivity", "same_record_decision_difference_across_targets"]},
+    "own_test_only": {"allowed_claims": ["lineage_fact", "own_test_difficulty"]},
+    "lineage_only": {"allowed_claims": ["lineage_fact"]},
+    "not_identifiable": {"allowed_claims": []}
+  },
+  "arms": ["FULL", "NO_PAIRING_GATE", "NO_TARGET_GATE", "NO_EVIDENCE_GATE", "DOCUMENTATION_ONLY", "PROVENANCE_ONLY"],
+  "required_fields": [
+    "comparison_id",
+    "dataset_family",
+    "left_state",
+    "right_state",
+    "provenance_status",
+    "row_correspondence",
+    "target_semantics",
+    "evaluation_alignment",
+    "behavioral_execution",
+    "evidence_artifact_ids",
+    "field_evidence"
+  ],
+  "decision_fields": ["provenance_status", "row_correspondence", "target_semantics", "evaluation_alignment", "behavioral_execution"],
+  "enums": {
+    "provenance_status": ["verified", "partial", "unknown"],
+    "row_correspondence": ["verified", "absent", "unknown", "not_applicable"],
+    "target_semantics": ["equivalent", "different", "unknown"],
+    "evaluation_alignment": ["same_frozen_records", "own_test_splits", "not_executed", "unknown"],
+    "behavioral_execution": ["verified", "absent", "unknown"]
+  },
+  "jsonld_contract": {
+    "context": {
+      "sc": "http://schema.org/",
+      "cr": "http://mlcommons.org/croissant/",
+      "prov": "http://www.w3.org/ns/prov#",
+      "dct": "http://purl.org/dc/terms/",
+      "bla": "urn:behavioral-lineage-audit:"
+    },
+    "required_root_types": ["sc:Dataset", "prov:Entity"],
+    "required_case_types": ["bla:ComparisonCase", "prov:Entity"]
+  }
+}

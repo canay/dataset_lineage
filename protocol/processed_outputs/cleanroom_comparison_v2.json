@@ -1,0 +1,231 @@
+{
+  "all_exact": true,
+  "artifact_provenance": {
+    "cases_jsonld_sha256": "F424008182A001D9189228F488B7962738C4901E3DEFE4B1122B64923D726D5D",
+    "cleanroom_output_sha256": "B204F02E4D845522C3382BC673B9FA7140E99DD060F9774EE6E7F8D2025EBFEF",
+    "cleanroom_source_sha256": "D47EF0C65B0D28D6B860AB30D97B89A4CF3767A613094EC0CFA506D28FEAAFC8",
+    "main_output_sha256": "8BDAF46DABC9F3638CF6D6D7FA33414DD264F2CB30B0DD82EF39E3E0DBF42E09"
+  },
+  "carrier_validation_exact": true,
+  "case_count": 18,
+  "exact_case_count": 18,
+  "ids_exact": true,
+  "rows": [
+    {
+      "checks": {
+        "claim_decisions_exact": true,
+        "decision_class_exact": true,
+        "evidence_ids_exact": true,
+        "field_evidence_closure_exact": true,
+        "gate_trace_exact": true,
+        "present_both": true
+      },
+      "comparison_id": "acsincome_t50_vs_t25",
+      "passed": true
+    },
+    {
+      "checks": {
+        "claim_decisions_exact": true,
+        "decision_class_exact": true,
+        "evidence_ids_exact": true,
+        "field_evidence_closure_exact": true,
+        "gate_trace_exact": true,
+        "present_both": true
+      },
+      "comparison_id": "acsincome_t50_vs_t85",
+      "passed": true
+    },
+    {
+      "checks": {
+        "claim_decisions_exact": true,
+        "decision_class_exact": true,
+        "evidence_ids_exact": true,
+        "field_evidence_closure_exact": true,
+        "gate_trace_exact": true,
+        "present_both": true
+      },
+      "comparison_id": "adult_openml_v2_vs_uci_concat",
+      "passed": true
+    },
+    {
+      "checks": {
+        "claim_decisions_exact": true,
+        "decision_class_exact": true,
+        "evidence_ids_exact": true,
+        "field_evidence_closure_exact": true,
+        "gate_trace_exact": true,
+        "present_both": true
+      },
+      "comparison_id": "adult_original_extraction_relaxation",
+      "passed": true
+    },
+    {
+      "checks": {
+        "claim_decisions_exact": true,
+        "decision_class_exact": true,
+        "evidence_ids_exact": true,
+        "field_evidence_closure_exact": true,
+        "gate_trace_exact": true,
+        "present_both": true
+      },
+      "comparison_id": "adult_v0_vs_v1_workforce",
+      "passed": true
+    },
+    {
+      "checks": {
+        "claim_decisions_exact": true,
+        "decision_class_exact": true,
+        "evidence_ids_exact": true,
+        "field_evidence_closure_exact": true,
+        "gate_trace_exact": true,
+        "present_both": true
+      },
+      "comparison_id": "adult_v0_vs_v3a_drop_missing",
+      "passed": true
+    },
+    {
+      "checks": {
+        "claim_decisions_exact": true,
+        "decision_class_exact": true,
+        "evidence_ids_exact": true,
+        "field_evidence_closure_exact": true,
+        "gate_trace_exact": true,
+        "present_both": true
+      },
+      "comparison_id": "adult_v0_vs_v3b_mode_impute",
+      "passed": true
+    },
+    {
+      "checks": {
+        "claim_decisions_exact": true,
+        "decision_class_exact": true,
+        "evidence_ids_exact": true,
+        "field_evidence_closure_exact": true,
+        "gate_trace_exact": true,
+        "present_both": true
+      },
+      "comparison_id": "adult_v0_vs_v4_deduplicate",
+      "passed": true
+    },
+    {
+      "checks": {
+        "claim_decisions_exact": true,
+        "decision_class_exact": true,
+        "evidence_ids_exact": true,
+        "field_evidence_closure_exact": true,
+        "gate_trace_exact": true,
+        "present_both": true
+      },
+      "comparison_id": "adult_v0_vs_v5a_uniform_split",
+      "passed": true
+    },
+    {
+      "checks": {
+        "claim_decisions_exact": true,
+        "decision_class_exact": true,
+        "evidence_ids_exact": true,
+        "field_evidence_closure_exact": true,
+        "gate_trace_exact": true,
+        "present_both": true
+      },
+      "comparison_id": "adult_v0_vs_v5b_historical_split",
+      "passed": true
+    },
+    {
+      "checks": {
+        "claim_decisions_exact": true,
+        "decision_class_exact": true,
+        "evidence_ids_exact": true,
+        "field_evidence_closure_exact": true,
+        "gate_trace_exact": true,
+        "present_both": true
+      },
+      "comparison_id": "compas_c0_vs_c1_no_window",
+      "passed": true
+    },
+    {
+      "checks": {
+        "claim_decisions_exact": true,
+        "decision_class_exact": true,
+        "evidence_ids_exact": true,
+        "field_evidence_closure_exact": true,
+        "gate_trace_exact": true,
+        "present_both": true
+      },
+      "comparison_id": "compas_c0_vs_c2_is_recid",
+      "passed": true
+    },
+    {
+      "checks": {
+        "claim_decisions_exact": true,
+        "decision_class_exact": true,
+        "evidence_ids_exact": true,
+        "field_evidence_closure_exact": true,
+        "gate_trace_exact": true,
+        "present_both": true
+      },
+      "comparison_id": "compas_c0_vs_c3_uniform_split",
+      "passed": true
+    },
+    {
+      "checks": {
+        "claim_decisions_exact": true,
+        "decision_class_exact": true,
+        "evidence_ids_exact": true,
+        "field_evidence_closure_exact": true,
+        "gate_trace_exact": true,
+        "present_both": true
+      },
+      "comparison_id": "german_statlog_vs_south_german",
+      "passed": true
+    },
+    {
+      "checks": {
+        "claim_decisions_exact": true,
+        "decision_class_exact": true,
+        "evidence_ids_exact": true,
+        "field_evidence_closure_exact": true,
+        "gate_trace_exact": true,
+        "present_both": true
+      },
+      "comparison_id": "heart_any_vs_severe_target",
+      "passed": true
+    },
+    {
+      "checks": {
+        "claim_decisions_exact": true,
+        "decision_class_exact": true,
+        "evidence_ids_exact": true,
+        "field_evidence_closure_exact": true,
+        "gate_trace_exact": true,
+        "present_both": true
+      },
+      "comparison_id": "heart_cleveland_impute_vs_drop",
+      "passed": true
+    },
+    {
+      "checks": {
+        "claim_decisions_exact": true,
+        "decision_class_exact": true,
+        "evidence_ids_exact": true,
+        "field_evidence_closure_exact": true,
+        "gate_trace_exact": true,
+        "present_both": true
+      },
+      "comparison_id": "heart_cleveland_vs_multisite_drop",
+      "passed": true
+    },
+    {
+      "checks": {
+        "claim_decisions_exact": true,
+        "decision_class_exact": true,
+        "evidence_ids_exact": true,
+        "field_evidence_closure_exact": true,
+        "gate_trace_exact": true,
+        "present_both": true
+      },
+      "comparison_id": "heart_cleveland_vs_multisite_impute",
+      "passed": true
+    }
+  ]
+}

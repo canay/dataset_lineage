@@ -1,0 +1,1158 @@
+{
+  "ablation_changed_case_counts": {
+    "NO_EVIDENCE_GATE": 1,
+    "NO_PAIRING_GATE": 1,
+    "NO_TARGET_GATE": 4
+  },
+  "arms": {
+    "DOCUMENTATION_ONLY": {
+      "carrier_validation": {
+        "case_count": 18,
+        "field_count": 11,
+        "field_evidence_binding_count": 90,
+        "gold_fields_present": false,
+        "passed": true,
+        "record_set_count": 1,
+        "required_field_evidence_binding_count": 90,
+        "root_type_count": 2
+      },
+      "case_count": 18,
+      "exact_class_count": 0,
+      "field_evidence_binding_count": 90,
+      "predicted_class_counts": {
+        "None": 18
+      },
+      "rows": [
+        {
+          "comparison_id": "adult_openml_v2_vs_uci_concat",
+          "exact": false,
+          "expected_class": "lineage_only",
+          "field_evidence_closure_passed": true,
+          "predicted_class": null,
+          "unsafe_allowed_claims": []
+        },
+        {
+          "comparison_id": "adult_v0_vs_v1_workforce",
+          "exact": false,
+          "expected_class": "paired_behavior",
+          "field_evidence_closure_passed": true,
+          "predicted_class": null,
+          "unsafe_allowed_claims": []
+        },
+        {
+          "comparison_id": "adult_v0_vs_v3a_drop_missing",
+          "exact": false,
+          "expected_class": "paired_behavior",
+          "field_evidence_closure_passed": true,
+          "predicted_class": null,
+          "unsafe_allowed_claims": []
+        },
+        {
+          "comparison_id": "adult_v0_vs_v3b_mode_impute",
+          "exact": false,
+          "expected_class": "paired_behavior",
+          "field_evidence_closure_passed": true,
+          "predicted_class": null,
+          "unsafe_allowed_claims": []
+        },
+        {
+          "comparison_id": "adult_v0_vs_v4_deduplicate",
+          "exact": false,
+          "expected_class": "paired_behavior",
+          "field_evidence_closure_passed": true,
+          "predicted_class": null,
+          "unsafe_allowed_claims": []
+        },
+        {
+          "comparison_id": "adult_v0_vs_v5a_uniform_split",
+          "exact": false,
+          "expected_class": "paired_behavior",
+          "field_evidence_closure_passed": true,
+          "predicted_class": null,
+          "unsafe_allowed_claims": []
+        },
+        {
+          "comparison_id": "adult_v0_vs_v5b_historical_split",
+          "exact": false,
+          "expected_class": "paired_behavior",
+          "field_evidence_closure_passed": true,
+          "predicted_class": null,
+          "unsafe_allowed_claims": []
+        },
+        {
+          "comparison_id": "adult_original_extraction_relaxation",
+          "exact": false,
+          "expected_class": "not_identifiable",
+          "field_evidence_closure_passed": true,
+          "predicted_class": null,
+          "unsafe_allowed_claims": []
+        },
+        {
+          "comparison_id": "compas_c0_vs_c1_no_window",
+          "exact": false,
+          "expected_class": "paired_behavior",
+          "field_evidence_closure_passed": true,
+          "predicted_class": null,
+          "unsafe_allowed_claims": []
+        },
+        {
+          "comparison_id": "compas_c0_vs_c2_is_recid",
+          "exact": false,
+          "expected_class": "target_sensitivity",
+          "field_evidence_closure_passed": true,
+          "predicted_class": null,
+          "unsafe_allowed_claims": []
+        },
+        {
+          "comparison_id": "compas_c0_vs_c3_uniform_split",
+          "exact": false,
+          "expected_class": "paired_behavior",
+          "field_evidence_closure_passed": true,
+          "predicted_class": null,
+          "unsafe_allowed_claims": []
+        },
+        {
+          "comparison_id": "acsincome_t50_vs_t25",
+          "exact": false,
+          "expected_class": "target_sensitivity",
+          "field_evidence_closure_passed": true,
+          "predicted_class": null,
+          "unsafe_allowed_claims": []
+        },
+        {
+          "comparison_id": "acsincome_t50_vs_t85",
+          "exact": false,
+          "expected_class": "target_sensitivity",
+          "field_evidence_closure_passed": true,
+          "predicted_class": null,
+          "unsafe_allowed_claims": []
+        },
+        {
+          "comparison_id": "german_statlog_vs_south_german",
+          "exact": false,
+          "expected_class": "own_test_only",
+          "field_evidence_closure_passed": true,
+          "predicted_class": null,
+          "unsafe_allowed_claims": []
+        },
+        {
+          "comparison_id": "heart_cleveland_impute_vs_drop",
+          "exact": false,
+          "expected_class": "paired_behavior",
+          "field_evidence_closure_passed": true,
+          "predicted_class": null,
+          "unsafe_allowed_claims": []
+        },
+        {
+          "comparison_id": "heart_cleveland_vs_multisite_impute",
+          "exact": false,
+          "expected_class": "paired_behavior",
+          "field_evidence_closure_passed": true,
+          "predicted_class": null,
+          "unsafe_allowed_claims": []
+        },
+        {
+          "comparison_id": "heart_cleveland_vs_multisite_drop",
+          "exact": false,
+          "expected_class": "paired_behavior",
+          "field_evidence_closure_passed": true,
+          "predicted_class": null,
+          "unsafe_allowed_claims": []
+        },
+        {
+          "comparison_id": "heart_any_vs_severe_target",
+          "exact": false,
+          "expected_class": "target_sensitivity",
+          "field_evidence_closure_passed": true,
+          "predicted_class": null,
+          "unsafe_allowed_claims": []
+        }
+      ],
+      "unsafe_claim_acceptance_count": 0,
+      "unsafe_claim_cases": []
+    },
+    "FULL": {
+      "carrier_validation": {
+        "case_count": 18,
+        "field_count": 11,
+        "field_evidence_binding_count": 90,
+        "gold_fields_present": false,
+        "passed": true,
+        "record_set_count": 1,
+        "required_field_evidence_binding_count": 90,
+        "root_type_count": 2
+      },
+      "case_count": 18,
+      "exact_class_count": 18,
+      "field_evidence_binding_count": 90,
+      "predicted_class_counts": {
+        "lineage_only": 1,
+        "not_identifiable": 1,
+        "own_test_only": 1,
+        "paired_behavior": 11,
+        "target_sensitivity": 4
+      },
+      "rows": [
+        {
+          "comparison_id": "adult_openml_v2_vs_uci_concat",
+          "exact": true,
+          "expected_class": "lineage_only",
+          "field_evidence_closure_passed": true,
+          "predicted_class": "lineage_only",
+          "unsafe_allowed_claims": []
+        },
+        {
+          "comparison_id": "adult_v0_vs_v1_workforce",
+          "exact": true,
+          "expected_class": "paired_behavior",
+          "field_evidence_closure_passed": true,
+          "predicted_class": "paired_behavior",
+          "unsafe_allowed_claims": []
+        },
+        {
+          "comparison_id": "adult_v0_vs_v3a_drop_missing",
+          "exact": true,
+          "expected_class": "paired_behavior",
+          "field_evidence_closure_passed": true,
+          "predicted_class": "paired_behavior",
+          "unsafe_allowed_claims": []
+        },
+        {
+          "comparison_id": "adult_v0_vs_v3b_mode_impute",
+          "exact": true,
+          "expected_class": "paired_behavior",
+          "field_evidence_closure_passed": true,
+          "predicted_class": "paired_behavior",
+          "unsafe_allowed_claims": []
+        },
+        {
+          "comparison_id": "adult_v0_vs_v4_deduplicate",
+          "exact": true,
+          "expected_class": "paired_behavior",
+          "field_evidence_closure_passed": true,
+          "predicted_class": "paired_behavior",
+          "unsafe_allowed_claims": []
+        },
+        {
+          "comparison_id": "adult_v0_vs_v5a_uniform_split",
+          "exact": true,
+          "expected_class": "paired_behavior",
+          "field_evidence_closure_passed": true,
+          "predicted_class": "paired_behavior",
+          "unsafe_allowed_claims": []
+        },
+        {
+          "comparison_id": "adult_v0_vs_v5b_historical_split",
+          "exact": true,
+          "expected_class": "paired_behavior",
+          "field_evidence_closure_passed": true,
+          "predicted_class": "paired_behavior",
+          "unsafe_allowed_claims": []
+        },
+        {
+          "comparison_id": "adult_original_extraction_relaxation",
+          "exact": true,
+          "expected_class": "not_identifiable",
+          "field_evidence_closure_passed": true,
+          "predicted_class": "not_identifiable",
+          "unsafe_allowed_claims": []
+        },
+        {
+          "comparison_id": "compas_c0_vs_c1_no_window",
+          "exact": true,
+          "expected_class": "paired_behavior",
+          "field_evidence_closure_passed": true,
+          "predicted_class": "paired_behavior",
+          "unsafe_allowed_claims": []
+        },
+        {
+          "comparison_id": "compas_c0_vs_c2_is_recid",
+          "exact": true,
+          "expected_class": "target_sensitivity",
+          "field_evidence_closure_passed": true,
+          "predicted_class": "target_sensitivity",
+          "unsafe_allowed_claims": []
+        },
+        {
+          "comparison_id": "compas_c0_vs_c3_uniform_split",
+          "exact": true,
+          "expected_class": "paired_behavior",
+          "field_evidence_closure_passed": true,
+          "predicted_class": "paired_behavior",
+          "unsafe_allowed_claims": []
+        },
+        {
+          "comparison_id": "acsincome_t50_vs_t25",
+          "exact": true,
+          "expected_class": "target_sensitivity",
+          "field_evidence_closure_passed": true,
+          "predicted_class": "target_sensitivity",
+          "unsafe_allowed_claims": []
+        },
+        {
+          "comparison_id": "acsincome_t50_vs_t85",
+          "exact": true,
+          "expected_class": "target_sensitivity",
+          "field_evidence_closure_passed": true,
+          "predicted_class": "target_sensitivity",
+          "unsafe_allowed_claims": []
+        },
+        {
+          "comparison_id": "german_statlog_vs_south_german",
+          "exact": true,
+          "expected_class": "own_test_only",
+          "field_evidence_closure_passed": true,
+          "predicted_class": "own_test_only",
+          "unsafe_allowed_claims": []
+        },
+        {
+          "comparison_id": "heart_cleveland_impute_vs_drop",
+          "exact": true,
+          "expected_class": "paired_behavior",
+          "field_evidence_closure_passed": true,
+          "predicted_class": "paired_behavior",
+          "unsafe_allowed_claims": []
+        },
+        {
+          "comparison_id": "heart_cleveland_vs_multisite_impute",
+          "exact": true,
+          "expected_class": "paired_behavior",
+          "field_evidence_closure_passed": true,
+          "predicted_class": "paired_behavior",
+          "unsafe_allowed_claims": []
+        },
+        {
+          "comparison_id": "heart_cleveland_vs_multisite_drop",
+          "exact": true,
+          "expected_class": "paired_behavior",
+          "field_evidence_closure_passed": true,
+          "predicted_class": "paired_behavior",
+          "unsafe_allowed_claims": []
+        },
+        {
+          "comparison_id": "heart_any_vs_severe_target",
+          "exact": true,
+          "expected_class": "target_sensitivity",
+          "field_evidence_closure_passed": true,
+          "predicted_class": "target_sensitivity",
+          "unsafe_allowed_claims": []
+        }
+      ],
+      "unsafe_claim_acceptance_count": 0,
+      "unsafe_claim_cases": []
+    },
+    "NO_EVIDENCE_GATE": {
+      "carrier_validation": {
+        "case_count": 18,
+        "field_count": 11,
+        "field_evidence_binding_count": 90,
+        "gold_fields_present": false,
+        "passed": true,
+        "record_set_count": 1,
+        "required_field_evidence_binding_count": 90,
+        "root_type_count": 2
+      },
+      "case_count": 18,
+      "exact_class_count": 17,
+      "field_evidence_binding_count": 90,
+      "predicted_class_counts": {
+        "not_identifiable": 1,
+        "own_test_only": 1,
+        "paired_behavior": 12,
+        "target_sensitivity": 4
+      },
+      "rows": [
+        {
+          "comparison_id": "adult_openml_v2_vs_uci_concat",
+          "exact": false,
+          "expected_class": "lineage_only",
+          "field_evidence_closure_passed": true,
+          "predicted_class": "paired_behavior",
+          "unsafe_allowed_claims": [
+            "individual_churn_same_task",
+            "paired_aggregate_effect"
+          ]
+        },
+        {
+          "comparison_id": "adult_v0_vs_v1_workforce",
+          "exact": true,
+          "expected_class": "paired_behavior",
+          "field_evidence_closure_passed": true,
+          "predicted_class": "paired_behavior",
+          "unsafe_allowed_claims": []
+        },
+        {
+          "comparison_id": "adult_v0_vs_v3a_drop_missing",
+          "exact": true,
+          "expected_class": "paired_behavior",
+          "field_evidence_closure_passed": true,
+          "predicted_class": "paired_behavior",
+          "unsafe_allowed_claims": []
+        },
+        {
+          "comparison_id": "adult_v0_vs_v3b_mode_impute",
+          "exact": true,
+          "expected_class": "paired_behavior",
+          "field_evidence_closure_passed": true,
+          "predicted_class": "paired_behavior",
+          "unsafe_allowed_claims": []
+        },
+        {
+          "comparison_id": "adult_v0_vs_v4_deduplicate",
+          "exact": true,
+          "expected_class": "paired_behavior",
+          "field_evidence_closure_passed": true,
+          "predicted_class": "paired_behavior",
+          "unsafe_allowed_claims": []
+        },
+        {
+          "comparison_id": "adult_v0_vs_v5a_uniform_split",
+          "exact": true,
+          "expected_class": "paired_behavior",
+          "field_evidence_closure_passed": true,
+          "predicted_class": "paired_behavior",
+          "unsafe_allowed_claims": []
+        },
+        {
+          "comparison_id": "adult_v0_vs_v5b_historical_split",
+          "exact": true,
+          "expected_class": "paired_behavior",
+          "field_evidence_closure_passed": true,
+          "predicted_class": "paired_behavior",
+          "unsafe_allowed_claims": []
+        },
+        {
+          "comparison_id": "adult_original_extraction_relaxation",
+          "exact": true,
+          "expected_class": "not_identifiable",
+          "field_evidence_closure_passed": true,
+          "predicted_class": "not_identifiable",
+          "unsafe_allowed_claims": []
+        },
+        {
+          "comparison_id": "compas_c0_vs_c1_no_window",
+          "exact": true,
+          "expected_class": "paired_behavior",
+          "field_evidence_closure_passed": true,
+          "predicted_class": "paired_behavior",
+          "unsafe_allowed_claims": []
+        },
+        {
+          "comparison_id": "compas_c0_vs_c2_is_recid",
+          "exact": true,
+          "expected_class": "target_sensitivity",
+          "field_evidence_closure_passed": true,
+          "predicted_class": "target_sensitivity",
+          "unsafe_allowed_claims": []
+        },
+        {
+          "comparison_id": "compas_c0_vs_c3_uniform_split",
+          "exact": true,
+          "expected_class": "paired_behavior",
+          "field_evidence_closure_passed": true,
+          "predicted_class": "paired_behavior",
+          "unsafe_allowed_claims": []
+        },
+        {
+          "comparison_id": "acsincome_t50_vs_t25",
+          "exact": true,
+          "expected_class": "target_sensitivity",
+          "field_evidence_closure_passed": true,
+          "predicted_class": "target_sensitivity",
+          "unsafe_allowed_claims": []
+        },
+        {
+          "comparison_id": "acsincome_t50_vs_t85",
+          "exact": true,
+          "expected_class": "target_sensitivity",
+          "field_evidence_closure_passed": true,
+          "predicted_class": "target_sensitivity",
+          "unsafe_allowed_claims": []
+        },
+        {
+          "comparison_id": "german_statlog_vs_south_german",
+          "exact": true,
+          "expected_class": "own_test_only",
+          "field_evidence_closure_passed": true,
+          "predicted_class": "own_test_only",
+          "unsafe_allowed_claims": []
+        },
+        {
+          "comparison_id": "heart_cleveland_impute_vs_drop",
+          "exact": true,
+          "expected_class": "paired_behavior",
+          "field_evidence_closure_passed": true,
+          "predicted_class": "paired_behavior",
+          "unsafe_allowed_claims": []
+        },
+        {
+          "comparison_id": "heart_cleveland_vs_multisite_impute",
+          "exact": true,
+          "expected_class": "paired_behavior",
+          "field_evidence_closure_passed": true,
+          "predicted_class": "paired_behavior",
+          "unsafe_allowed_claims": []
+        },
+        {
+          "comparison_id": "heart_cleveland_vs_multisite_drop",
+          "exact": true,
+          "expected_class": "paired_behavior",
+          "field_evidence_closure_passed": true,
+          "predicted_class": "paired_behavior",
+          "unsafe_allowed_claims": []
+        },
+        {
+          "comparison_id": "heart_any_vs_severe_target",
+          "exact": true,
+          "expected_class": "target_sensitivity",
+          "field_evidence_closure_passed": true,
+          "predicted_class": "target_sensitivity",
+          "unsafe_allowed_claims": []
+        }
+      ],
+      "unsafe_claim_acceptance_count": 2,
+      "unsafe_claim_cases": [
+        {
+          "claims": [
+            "individual_churn_same_task",
+            "paired_aggregate_effect"
+          ],
+          "comparison_id": "adult_openml_v2_vs_uci_concat"
+        }
+      ]
+    },
+    "NO_PAIRING_GATE": {
+      "carrier_validation": {
+        "case_count": 18,
+        "field_count": 11,
+        "field_evidence_binding_count": 90,
+        "gold_fields_present": false,
+        "passed": true,
+        "record_set_count": 1,
+        "required_field_evidence_binding_count": 90,
+        "root_type_count": 2
+      },
+      "case_count": 18,
+      "exact_class_count": 17,
+      "field_evidence_binding_count": 90,
+      "predicted_class_counts": {
+        "lineage_only": 1,
+        "not_identifiable": 1,
+        "paired_behavior": 12,
+        "target_sensitivity": 4
+      },
+      "rows": [
+        {
+          "comparison_id": "adult_openml_v2_vs_uci_concat",
+          "exact": true,
+          "expected_class": "lineage_only",
+          "field_evidence_closure_passed": true,
+          "predicted_class": "lineage_only",
+          "unsafe_allowed_claims": []
+        },
+        {
+          "comparison_id": "adult_v0_vs_v1_workforce",
+          "exact": true,
+          "expected_class": "paired_behavior",
+          "field_evidence_closure_passed": true,
+          "predicted_class": "paired_behavior",
+          "unsafe_allowed_claims": []
+        },
+        {
+          "comparison_id": "adult_v0_vs_v3a_drop_missing",
+          "exact": true,
+          "expected_class": "paired_behavior",
+          "field_evidence_closure_passed": true,
+          "predicted_class": "paired_behavior",
+          "unsafe_allowed_claims": []
+        },
+        {
+          "comparison_id": "adult_v0_vs_v3b_mode_impute",
+          "exact": true,
+          "expected_class": "paired_behavior",
+          "field_evidence_closure_passed": true,
+          "predicted_class": "paired_behavior",
+          "unsafe_allowed_claims": []
+        },
+        {
+          "comparison_id": "adult_v0_vs_v4_deduplicate",
+          "exact": true,
+          "expected_class": "paired_behavior",
+          "field_evidence_closure_passed": true,
+          "predicted_class": "paired_behavior",
+          "unsafe_allowed_claims": []
+        },
+        {
+          "comparison_id": "adult_v0_vs_v5a_uniform_split",
+          "exact": true,
+          "expected_class": "paired_behavior",
+          "field_evidence_closure_passed": true,
+          "predicted_class": "paired_behavior",
+          "unsafe_allowed_claims": []
+        },
+        {
+          "comparison_id": "adult_v0_vs_v5b_historical_split",
+          "exact": true,
+          "expected_class": "paired_behavior",
+          "field_evidence_closure_passed": true,
+          "predicted_class": "paired_behavior",
+          "unsafe_allowed_claims": []
+        },
+        {
+          "comparison_id": "adult_original_extraction_relaxation",
+          "exact": true,
+          "expected_class": "not_identifiable",
+          "field_evidence_closure_passed": true,
+          "predicted_class": "not_identifiable",
+          "unsafe_allowed_claims": []
+        },
+        {
+          "comparison_id": "compas_c0_vs_c1_no_window",
+          "exact": true,
+          "expected_class": "paired_behavior",
+          "field_evidence_closure_passed": true,
+          "predicted_class": "paired_behavior",
+          "unsafe_allowed_claims": []
+        },
+        {
+          "comparison_id": "compas_c0_vs_c2_is_recid",
+          "exact": true,
+          "expected_class": "target_sensitivity",
+          "field_evidence_closure_passed": true,
+          "predicted_class": "target_sensitivity",
+          "unsafe_allowed_claims": []
+        },
+        {
+          "comparison_id": "compas_c0_vs_c3_uniform_split",
+          "exact": true,
+          "expected_class": "paired_behavior",
+          "field_evidence_closure_passed": true,
+          "predicted_class": "paired_behavior",
+          "unsafe_allowed_claims": []
+        },
+        {
+          "comparison_id": "acsincome_t50_vs_t25",
+          "exact": true,
+          "expected_class": "target_sensitivity",
+          "field_evidence_closure_passed": true,
+          "predicted_class": "target_sensitivity",
+          "unsafe_allowed_claims": []
+        },
+        {
+          "comparison_id": "acsincome_t50_vs_t85",
+          "exact": true,
+          "expected_class": "target_sensitivity",
+          "field_evidence_closure_passed": true,
+          "predicted_class": "target_sensitivity",
+          "unsafe_allowed_claims": []
+        },
+        {
+          "comparison_id": "german_statlog_vs_south_german",
+          "exact": false,
+          "expected_class": "own_test_only",
+          "field_evidence_closure_passed": true,
+          "predicted_class": "paired_behavior",
+          "unsafe_allowed_claims": [
+            "individual_churn_same_task",
+            "paired_aggregate_effect"
+          ]
+        },
+        {
+          "comparison_id": "heart_cleveland_impute_vs_drop",
+          "exact": true,
+          "expected_class": "paired_behavior",
+          "field_evidence_closure_passed": true,
+          "predicted_class": "paired_behavior",
+          "unsafe_allowed_claims": []
+        },
+        {
+          "comparison_id": "heart_cleveland_vs_multisite_impute",
+          "exact": true,
+          "expected_class": "paired_behavior",
+          "field_evidence_closure_passed": true,
+          "predicted_class": "paired_behavior",
+          "unsafe_allowed_claims": []
+        },
+        {
+          "comparison_id": "heart_cleveland_vs_multisite_drop",
+          "exact": true,
+          "expected_class": "paired_behavior",
+          "field_evidence_closure_passed": true,
+          "predicted_class": "paired_behavior",
+          "unsafe_allowed_claims": []
+        },
+        {
+          "comparison_id": "heart_any_vs_severe_target",
+          "exact": true,
+          "expected_class": "target_sensitivity",
+          "field_evidence_closure_passed": true,
+          "predicted_class": "target_sensitivity",
+          "unsafe_allowed_claims": []
+        }
+      ],
+      "unsafe_claim_acceptance_count": 2,
+      "unsafe_claim_cases": [
+        {
+          "claims": [
+            "individual_churn_same_task",
+            "paired_aggregate_effect"
+          ],
+          "comparison_id": "german_statlog_vs_south_german"
+        }
+      ]
+    },
+    "NO_TARGET_GATE": {
+      "carrier_validation": {
+        "case_count": 18,
+        "field_count": 11,
+        "field_evidence_binding_count": 90,
+        "gold_fields_present": false,
+        "passed": true,
+        "record_set_count": 1,
+        "required_field_evidence_binding_count": 90,
+        "root_type_count": 2
+      },
+      "case_count": 18,
+      "exact_class_count": 14,
+      "field_evidence_binding_count": 90,
+      "predicted_class_counts": {
+        "lineage_only": 1,
+        "not_identifiable": 1,
+        "own_test_only": 1,
+        "paired_behavior": 15
+      },
+      "rows": [
+        {
+          "comparison_id": "adult_openml_v2_vs_uci_concat",
+          "exact": true,
+          "expected_class": "lineage_only",
+          "field_evidence_closure_passed": true,
+          "predicted_class": "lineage_only",
+          "unsafe_allowed_claims": []
+        },
+        {
+          "comparison_id": "adult_v0_vs_v1_workforce",
+          "exact": true,
+          "expected_class": "paired_behavior",
+          "field_evidence_closure_passed": true,
+          "predicted_class": "paired_behavior",
+          "unsafe_allowed_claims": []
+        },
+        {
+          "comparison_id": "adult_v0_vs_v3a_drop_missing",
+          "exact": true,
+          "expected_class": "paired_behavior",
+          "field_evidence_closure_passed": true,
+          "predicted_class": "paired_behavior",
+          "unsafe_allowed_claims": []
+        },
+        {
+          "comparison_id": "adult_v0_vs_v3b_mode_impute",
+          "exact": true,
+          "expected_class": "paired_behavior",
+          "field_evidence_closure_passed": true,
+          "predicted_class": "paired_behavior",
+          "unsafe_allowed_claims": []
+        },
+        {
+          "comparison_id": "adult_v0_vs_v4_deduplicate",
+          "exact": true,
+          "expected_class": "paired_behavior",
+          "field_evidence_closure_passed": true,
+          "predicted_class": "paired_behavior",
+          "unsafe_allowed_claims": []
+        },
+        {
+          "comparison_id": "adult_v0_vs_v5a_uniform_split",
+          "exact": true,
+          "expected_class": "paired_behavior",
+          "field_evidence_closure_passed": true,
+          "predicted_class": "paired_behavior",
+          "unsafe_allowed_claims": []
+        },
+        {
+          "comparison_id": "adult_v0_vs_v5b_historical_split",
+          "exact": true,
+          "expected_class": "paired_behavior",
+          "field_evidence_closure_passed": true,
+          "predicted_class": "paired_behavior",
+          "unsafe_allowed_claims": []
+        },
+        {
+          "comparison_id": "adult_original_extraction_relaxation",
+          "exact": true,
+          "expected_class": "not_identifiable",
+          "field_evidence_closure_passed": true,
+          "predicted_class": "not_identifiable",
+          "unsafe_allowed_claims": []
+        },
+        {
+          "comparison_id": "compas_c0_vs_c1_no_window",
+          "exact": true,
+          "expected_class": "paired_behavior",
+          "field_evidence_closure_passed": true,
+          "predicted_class": "paired_behavior",
+          "unsafe_allowed_claims": []
+        },
+        {
+          "comparison_id": "compas_c0_vs_c2_is_recid",
+          "exact": false,
+          "expected_class": "target_sensitivity",
+          "field_evidence_closure_passed": true,
+          "predicted_class": "paired_behavior",
+          "unsafe_allowed_claims": [
+            "individual_churn_same_task",
+            "paired_aggregate_effect"
+          ]
+        },
+        {
+          "comparison_id": "compas_c0_vs_c3_uniform_split",
+          "exact": true,
+          "expected_class": "paired_behavior",
+          "field_evidence_closure_passed": true,
+          "predicted_class": "paired_behavior",
+          "unsafe_allowed_claims": []
+        },
+        {
+          "comparison_id": "acsincome_t50_vs_t25",
+          "exact": false,
+          "expected_class": "target_sensitivity",
+          "field_evidence_closure_passed": true,
+          "predicted_class": "paired_behavior",
+          "unsafe_allowed_claims": [
+            "individual_churn_same_task",
+            "paired_aggregate_effect"
+          ]
+        },
+        {
+          "comparison_id": "acsincome_t50_vs_t85",
+          "exact": false,
+          "expected_class": "target_sensitivity",
+          "field_evidence_closure_passed": true,
+          "predicted_class": "paired_behavior",
+          "unsafe_allowed_claims": [
+            "individual_churn_same_task",
+            "paired_aggregate_effect"
+          ]
+        },
+        {
+          "comparison_id": "german_statlog_vs_south_german",
+          "exact": true,
+          "expected_class": "own_test_only",
+          "field_evidence_closure_passed": true,
+          "predicted_class": "own_test_only",
+          "unsafe_allowed_claims": []
+        },
+        {
+          "comparison_id": "heart_cleveland_impute_vs_drop",
+          "exact": true,
+          "expected_class": "paired_behavior",
+          "field_evidence_closure_passed": true,
+          "predicted_class": "paired_behavior",
+          "unsafe_allowed_claims": []
+        },
+        {
+          "comparison_id": "heart_cleveland_vs_multisite_impute",
+          "exact": true,
+          "expected_class": "paired_behavior",
+          "field_evidence_closure_passed": true,
+          "predicted_class": "paired_behavior",
+          "unsafe_allowed_claims": []
+        },
+        {
+          "comparison_id": "heart_cleveland_vs_multisite_drop",
+          "exact": true,
+          "expected_class": "paired_behavior",
+          "field_evidence_closure_passed": true,
+          "predicted_class": "paired_behavior",
+          "unsafe_allowed_claims": []
+        },
+        {
+          "comparison_id": "heart_any_vs_severe_target",
+          "exact": false,
+          "expected_class": "target_sensitivity",
+          "field_evidence_closure_passed": true,
+          "predicted_class": "paired_behavior",
+          "unsafe_allowed_claims": [
+            "individual_churn_same_task",
+            "paired_aggregate_effect"
+          ]
+        }
+      ],
+      "unsafe_claim_acceptance_count": 8,
+      "unsafe_claim_cases": [
+        {
+          "claims": [
+            "individual_churn_same_task",
+            "paired_aggregate_effect"
+          ],
+          "comparison_id": "compas_c0_vs_c2_is_recid"
+        },
+        {
+          "claims": [
+            "individual_churn_same_task",
+            "paired_aggregate_effect"
+          ],
+          "comparison_id": "acsincome_t50_vs_t25"
+        },
+        {
+          "claims": [
+            "individual_churn_same_task",
+            "paired_aggregate_effect"
+          ],
+          "comparison_id": "acsincome_t50_vs_t85"
+        },
+        {
+          "claims": [
+            "individual_churn_same_task",
+            "paired_aggregate_effect"
+          ],
+          "comparison_id": "heart_any_vs_severe_target"
+        }
+      ]
+    },
+    "PROVENANCE_ONLY": {
+      "carrier_validation": {
+        "case_count": 18,
+        "field_count": 11,
+        "field_evidence_binding_count": 90,
+        "gold_fields_present": false,
+        "passed": true,
+        "record_set_count": 1,
+        "required_field_evidence_binding_count": 90,
+        "root_type_count": 2
+      },
+      "case_count": 18,
+      "exact_class_count": 0,
+      "field_evidence_binding_count": 90,
+      "predicted_class_counts": {
+        "None": 18
+      },
+      "rows": [
+        {
+          "comparison_id": "adult_openml_v2_vs_uci_concat",
+          "exact": false,
+          "expected_class": "lineage_only",
+          "field_evidence_closure_passed": true,
+          "predicted_class": null,
+          "unsafe_allowed_claims": []
+        },
+        {
+          "comparison_id": "adult_v0_vs_v1_workforce",
+          "exact": false,
+          "expected_class": "paired_behavior",
+          "field_evidence_closure_passed": true,
+          "predicted_class": null,
+          "unsafe_allowed_claims": []
+        },
+        {
+          "comparison_id": "adult_v0_vs_v3a_drop_missing",
+          "exact": false,
+          "expected_class": "paired_behavior",
+          "field_evidence_closure_passed": true,
+          "predicted_class": null,
+          "unsafe_allowed_claims": []
+        },
+        {
+          "comparison_id": "adult_v0_vs_v3b_mode_impute",
+          "exact": false,
+          "expected_class": "paired_behavior",
+          "field_evidence_closure_passed": true,
+          "predicted_class": null,
+          "unsafe_allowed_claims": []
+        },
+        {
+          "comparison_id": "adult_v0_vs_v4_deduplicate",
+          "exact": false,
+          "expected_class": "paired_behavior",
+          "field_evidence_closure_passed": true,
+          "predicted_class": null,
+          "unsafe_allowed_claims": []
+        },
+        {
+          "comparison_id": "adult_v0_vs_v5a_uniform_split",
+          "exact": false,
+          "expected_class": "paired_behavior",
+          "field_evidence_closure_passed": true,
+          "predicted_class": null,
+          "unsafe_allowed_claims": []
+        },
+        {
+          "comparison_id": "adult_v0_vs_v5b_historical_split",
+          "exact": false,
+          "expected_class": "paired_behavior",
+          "field_evidence_closure_passed": true,
+          "predicted_class": null,
+          "unsafe_allowed_claims": []
+        },
+        {
+          "comparison_id": "adult_original_extraction_relaxation",
+          "exact": false,
+          "expected_class": "not_identifiable",
+          "field_evidence_closure_passed": true,
+          "predicted_class": null,
+          "unsafe_allowed_claims": []
+        },
+        {
+          "comparison_id": "compas_c0_vs_c1_no_window",
+          "exact": false,
+          "expected_class": "paired_behavior",
+          "field_evidence_closure_passed": true,
+          "predicted_class": null,
+          "unsafe_allowed_claims": []
+        },
+        {
+          "comparison_id": "compas_c0_vs_c2_is_recid",
+          "exact": false,
+          "expected_class": "target_sensitivity",
+          "field_evidence_closure_passed": true,
+          "predicted_class": null,
+          "unsafe_allowed_claims": []
+        },
+        {
+          "comparison_id": "compas_c0_vs_c3_uniform_split",
+          "exact": false,
+          "expected_class": "paired_behavior",
+          "field_evidence_closure_passed": true,
+          "predicted_class": null,
+          "unsafe_allowed_claims": []
+        },
+        {
+          "comparison_id": "acsincome_t50_vs_t25",
+          "exact": false,
+          "expected_class": "target_sensitivity",
+          "field_evidence_closure_passed": true,
+          "predicted_class": null,
+          "unsafe_allowed_claims": []
+        },
+        {
+          "comparison_id": "acsincome_t50_vs_t85",
+          "exact": false,
+          "expected_class": "target_sensitivity",
+          "field_evidence_closure_passed": true,
+          "predicted_class": null,
+          "unsafe_allowed_claims": []
+        },
+        {
+          "comparison_id": "german_statlog_vs_south_german",
+          "exact": false,
+          "expected_class": "own_test_only",
+          "field_evidence_closure_passed": true,
+          "predicted_class": null,
+          "unsafe_allowed_claims": []
+        },
+        {
+          "comparison_id": "heart_cleveland_impute_vs_drop",
+          "exact": false,
+          "expected_class": "paired_behavior",
+          "field_evidence_closure_passed": true,
+          "predicted_class": null,
+          "unsafe_allowed_claims": []
+        },
+        {
+          "comparison_id": "heart_cleveland_vs_multisite_impute",
+          "exact": false,
+          "expected_class": "paired_behavior",
+          "field_evidence_closure_passed": true,
+          "predicted_class": null,
+          "unsafe_allowed_claims": []
+        },
+        {
+          "comparison_id": "heart_cleveland_vs_multisite_drop",
+          "exact": false,
+          "expected_class": "paired_behavior",
+          "field_evidence_closure_passed": true,
+          "predicted_class": null,
+          "unsafe_allowed_claims": []
+        },
+        {
+          "comparison_id": "heart_any_vs_severe_target",
+          "exact": false,
+          "expected_class": "target_sensitivity",
+          "field_evidence_closure_passed": true,
+          "predicted_class": null,
+          "unsafe_allowed_claims": []
+        }
+      ],
+      "unsafe_claim_acceptance_count": 0,
+      "unsafe_claim_cases": []
+    }
+  },
+  "class_support_counts": {
+    "lineage_only": 1,
+    "not_identifiable": 1,
+    "own_test_only": 1,
+    "paired_behavior": 11,
+    "target_sensitivity": 4
+  },
+  "cleanroom_required_for_final_decision": true,
+  "criteria": [
+    {
+      "criterion_id": "jsonld_carrier_validation",
+      "passed": true,
+      "threshold": true,
+      "value": true
+    },
+    {
+      "criterion_id": "field_evidence_closure",
+      "passed": true,
+      "threshold": 90,
+      "value": 90
+    },
+    {
+      "criterion_id": "full_exact",
+      "passed": true,
+      "threshold": 18,
+      "value": 18
+    },
+    {
+      "criterion_id": "full_all_classes_reachable",
+      "passed": true,
+      "threshold": 5,
+      "value": 5
+    },
+    {
+      "criterion_id": "full_unsafe_claims",
+      "passed": true,
+      "threshold": 0,
+      "value": 0
+    },
+    {
+      "criterion_id": "pairing_ablation_changes_class",
+      "passed": true,
+      "threshold": 1,
+      "value": 1
+    },
+    {
+      "criterion_id": "target_ablation_promotions",
+      "passed": true,
+      "threshold": 4,
+      "value": 4
+    },
+    {
+      "criterion_id": "evidence_ablation_changes_class",
+      "passed": true,
+      "threshold": 1,
+      "value": 1
+    },
+    {
+      "criterion_id": "documentation_only_no_classes",
+      "passed": true,
+      "threshold": 18,
+      "value": 18
+    },
+    {
+      "criterion_id": "provenance_only_no_classes",
+      "passed": true,
+      "threshold": 18,
+      "value": 18
+    }
+  ],
+  "preliminary_criteria_passed": true,
+  "singleton_class_ids": [
+    "lineage_only",
+    "not_identifiable",
+    "own_test_only"
+  ],
+  "status": "PRELIMINARY_V2_AWAITING_CLEANROOM"
+}

@@ -1,0 +1,56 @@
+{
+  "source_base": "https://archive.ics.uci.edu/ml/machine-learning-databases/heart-disease",
+  "files": [
+    {
+      "file": "processed.cleveland.data",
+      "url": "https://archive.ics.uci.edu/ml/machine-learning-databases/heart-disease/processed.cleveland.data",
+      "bytes": 18461,
+      "sha256": "a74b7efa387bc9d108d7d0115d831fe9b414b29ae7124f331b622b4efa0427c8"
+    },
+    {
+      "file": "processed.hungarian.data",
+      "url": "https://archive.ics.uci.edu/ml/machine-learning-databases/heart-disease/processed.hungarian.data",
+      "bytes": 10263,
+      "sha256": "d1ad108f785768cd3d7e82dc522e6f5a61eea93cccfb3a46ee8076f73fc3d796"
+    },
+    {
+      "file": "processed.switzerland.data",
+      "url": "https://archive.ics.uci.edu/ml/machine-learning-databases/heart-disease/processed.switzerland.data",
+      "bytes": 4109,
+      "sha256": "834a405ccf5b66ab4056bb77794adc8df0b7125186454c0a1d002d33c6c3b314"
+    },
+    {
+      "file": "processed.va.data",
+      "url": "https://archive.ics.uci.edu/ml/machine-learning-databases/heart-disease/processed.va.data",
+      "bytes": 6737,
+      "sha256": "e7c93d8d0d2acdadfa4c5e8de768e2191e7f618b952e29623f1f0d5949ff6b8f"
+    },
+    {
+      "file": "heart-disease.names",
+      "url": "https://archive.ics.uci.edu/ml/machine-learning-databases/heart-disease/heart-disease.names",
+      "bytes": 10060,
+      "sha256": "ec7ed5aa4ed8321097808f47b836301c2a0c36f3bb09c40b8b43b622363e6b61"
+    }
+  ],
+  "loaded_rows": {
+    "cleveland": 303,
+    "hungarian": 294,
+    "switzerland": 123,
+    "va": 200
+  },
+  "missing_feature_cells": {
+    "cleveland": 6,
+    "hungarian": 782,
+    "switzerland": 273,
+    "va": 698
+  },
+  "common_eval": {
+    "site": "cleveland",
+    "n": 90,
+    "seed": 20260615,
+    "complete_case": true,
+    "target_any_positive_rate": 0.4666666666666667,
+    "target_severe_positive_rate": 0.2777777777777778
+  },
+  "run_mode": "full"
+}

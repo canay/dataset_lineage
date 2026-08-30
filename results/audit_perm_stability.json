@@ -1,0 +1,15 @@
+{
+ "n_rep": 20,
+ "method": "custom AUC-drop permutation importance (same metric as the 3-repeat canonical run), scoring=ROC AUC, 3 seeds",
+ "spearman_mean_offdiag": 0.9859061573347289,
+ "spearman_min_offdiag": 0.97997557997558,
+ "min_pair": [
+  "V1_workforce",
+  "V5_hist",
+  0.97997557997558
+ ],
+ "repro_guard_max_abs_acc_diff": 0.0,
+ "repro_guard_mean_abs_acc_diff": 0.0,
+ "canonical_3rep_mean": 0.99,
+ "canonical_3rep_min": 0.982
+}

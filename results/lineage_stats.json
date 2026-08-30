@@ -1,0 +1,35 @@
+{
+ "n_total": 48842,
+ "n_hist_train": 32561,
+ "n_hist_test": 16281,
+ "verified_equal_to_uci_concat": true,
+ "order": "adult.test rows 0..16280 then adult.data rows 16281..48841",
+ "becker_predicate_violations": {
+  "AAGE>16 violations (age<=16)": 0,
+  "AFNLWGT>1 violations (fnlwgt<=1)": 0,
+  "HRSWK>0 violations (hours<=0)": 0
+ },
+ "pos_rate": 0.23928176569346055,
+ "missing_counts": {
+  "workclass": 2799,
+  "occupation": 2809,
+  "native-country": 857
+ },
+ "rows_with_any_missing": 3620,
+ "exact_duplicates_features_and_label": 52,
+ "duplicates_features_only": 57,
+ "label_conflicting_feature_duplicates": 5,
+ "workforce_filter_removed": 2830,
+ "workforce_filter_kept": 46012,
+ "pos_rate_after_workforce": 0.2481961227505868,
+ "pos_rate_complete_cases": 0.2478439697492371,
+ "pos_rate_hist_train": 0.2408095574460244,
+ "pos_rate_hist_test": 0.23622627602727106,
+ "common_eval": {
+  "n": 4000,
+  "eligible_pool": 45201,
+  "pos_rate": 0.248,
+  "rng_seed": 20260611,
+  "definition": "complete-case AND workforce-pass, stratified by label"
+ }
+}

@@ -1,0 +1,14 @@
+{
+  "completed_decisions": 108,
+  "elapsed_seconds": 1.08607,
+  "end_time": "2026-08-26T17:33:13.574477+03:00",
+  "exit_code": 0,
+  "planned_decisions": 108,
+  "platform": "Windows-11-10.0.26200-SP0",
+  "python": "3.12.12 | packaged by conda-forge | (main, Oct 22 2025, 23:13:34) [MSC v.1944 64 bit (AMD64)]",
+  "run_id": "2026-08-26_codex_local_comparison_admissibility_validation_v2",
+  "start_time": "2026-08-26T17:33:12.488407+03:00",
+  "status": "verified",
+  "verification_time": "2026-08-26T17:35:00+03:00",
+  "verification_decision": "SUPPORTED_PROFILE_EXTENSION_V2"
+}

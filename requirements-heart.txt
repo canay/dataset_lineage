@@ -1,0 +1,8 @@
+# Heart Disease extension environment (separate CPU host).
+# Python 3.12.3. Exact versions recorded in the run transcript:
+# logs/vps_heart_lineage_extension_20260615/heart_lineage_cli_transcript.log
+scikit-learn==1.9.0
+pandas==3.0.3
+numpy==2.4.6
+scipy==1.17.1
+matplotlib==3.11.0

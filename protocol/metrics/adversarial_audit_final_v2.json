@@ -1,0 +1,48 @@
+{
+  "date_time": "2026-08-26 17:35 +03:00",
+  "tool": "Claude CLI with Codex post-audit closure",
+  "model": "claude-sonnet-5 / GPT-5",
+  "operation_id": "f04-behavioral-lineage-profile-validation-v2-20260826",
+  "claude_session_id": "c4808169-d0b9-4811-bdfb-53f351964a66",
+  "claude_response_uuid": "f2fb5919-1e61-43b9-b3c6-624a318be043",
+  "web_search_requests": 0,
+  "web_fetch_requests": 0,
+  "subagents_spawned": 0,
+  "verdict": "PASS_FOR_BOUNDED_MANUSCRIPT_USE",
+  "open_p0_count": 0,
+  "open_p1_count": 0,
+  "closed_findings": [
+    "Hash-bound PyLD 2.0.4 JSON-LD processor pre-gate",
+    "Field-typed evidence binding across five decision fields",
+    "Singleton-class and pairing-ablation n=1 disclosure",
+    "Frozen v1 classifier SHA-256 pinning",
+    "Independent clean-room exactness with comparison provenance"
+  ],
+  "post_audit_closures": [
+    {
+      "severity": "P2",
+      "issue": "Main and clean-room @context strictness differed.",
+      "closure": "The main validator now requires exactly the five configured prefixes plus @vocab; the full run and both mutation suites were rerun successfully."
+    },
+    {
+      "severity": "P2",
+      "issue": "The PyLD generator source was outside the eight-file reviewer scope.",
+      "closure": "The generator is retained as src/validate_jsonld_processor.py and is included in the immutable run manifest and freeze inventory; this was an audit-scope limitation, not a failed scientific criterion."
+    }
+  ],
+  "safe_claim": "Across 18 frozen comparison cases, the JSON-LD gate engine and an independent clean-room implementation reproduced all claim classes and field-evidence bindings exactly; gate-ablation utility is observed only on this case set.",
+  "forbidden_claims": [
+    "Certified, official, or standards-body-validated Croissant/PROV-O extension",
+    "Empirical truth of manually adjudicated metadata",
+    "Universal transferability, generalizability, or profile completeness",
+    "Model, method, dataset, or pipeline superiority",
+    "External validity, public-release readiness, DOI issuance, upload, or submission authorization",
+    "General validity of any n=1 class or gate effect"
+  ],
+  "required_manuscript_caveats": [
+    "The PyLD pre-gate verifies syntax, local-context expansion, and input-hash binding; it is not Croissant certification or metadata-truth adjudication.",
+    "Field-evidence binding is an auditable mechanical link, not proof that source content is correct.",
+    "own_test_only, lineage_only, not_identifiable, and the pairing-gate ablation effect each have n=1 support.",
+    "All exactness claims are restricted to the hash-pinned 18-case input."
+  ]
+}

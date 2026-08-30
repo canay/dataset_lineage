@@ -1,0 +1,20 @@
+{
+  "date_time": "2026-08-26 17:36 +03:00",
+  "tool": "Codex",
+  "model": "GPT-5",
+  "operation_id": "f04-behavioral-lineage-profile-validation-v2-20260826",
+  "decision_id": "F04-DKE-COMPARISON-ADMISSIBILITY-PROFILE-V2",
+  "status": "ADOPT_FOR_BOUNDED_MANUSCRIPT_USE",
+  "candidate_sha256": "A4228E2A5DFE673637B11B43139CF63618BF71C338F91F23F89040AD07F83EB7",
+  "review_sha256": "E035F0F7B59A9605C949570CCBC8238870264F2ECF3DE7C89736E4415F82170B",
+  "final_result_sha256": "8D2E280611D057B26AE7057B522B0B72E24BB2524C74D37EF8003CDBF2DD2459",
+  "decision": "Adopt the five-class comparison-admissibility application profile as an auditable protocol contribution for the frozen 18-case validation set.",
+  "required_bounds": [
+    "No Croissant or PROV-O certification claim",
+    "No empirical-truth claim for manually adjudicated metadata",
+    "No universal completeness or transferability claim",
+    "No model or method superiority claim",
+    "Disclose n=1 support for own_test_only, lineage_only, not_identifiable, and the pairing-gate ablation effect"
+  ],
+  "compute_decision": "MTA, VPS, and GPU were not used because the deterministic run completed locally in under five minutes and additional compute would not increase scientific validity."
+}

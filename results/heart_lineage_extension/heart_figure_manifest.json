@@ -1,0 +1,12 @@
+{
+  "figure": "fig_heart_lineage_extension",
+  "inputs": [
+    "results/heart_lineage_extension/heart_unit_metrics.csv",
+    "results/heart_lineage_extension/heart_deltas_vs_baseline.csv",
+    "results/heart_lineage_extension/heart_effect_sizes.csv"
+  ],
+  "outputs": [
+    "figures/fig_heart_lineage_extension.pdf",
+    "figures/fig_heart_lineage_extension.png"
+  ]
+}

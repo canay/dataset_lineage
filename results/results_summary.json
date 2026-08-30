@@ -1,0 +1,206 @@
+{
+ "adult": {
+  "tests": {
+   "friedman_variants_logreg": {
+    "chi2": 10.647272727272727,
+    "p": 0.09990904979271618,
+    "blocks": "seeds",
+    "treatments": "variants",
+    "outcome": "common_acc"
+   },
+   "friedman_variants_rf": {
+    "chi2": 15.422382671480154,
+    "p": 0.017214045837951455,
+    "blocks": "seeds",
+    "treatments": "variants",
+    "outcome": "common_acc"
+   },
+   "friedman_variants_hgb": {
+    "chi2": 7.451263537906132,
+    "p": 0.2811208945328769,
+    "blocks": "seeds",
+    "treatments": "variants",
+    "outcome": "common_acc"
+   },
+   "friedman_models_sensitivity": {
+    "chi2": 7.736842105263182,
+    "p": 0.020891329707155477,
+    "blocks": "variant x seed",
+    "treatments": "models",
+    "outcome": "|d_common_acc|"
+   },
+   "wilcoxon_abs_d_common_acc_logreg_vs_rf": {
+    "p": 0.5233839875136854,
+    "median_1": 0.0011249999999999871,
+    "median_2": 0.0010000000000000009,
+    "n": 30
+   },
+   "wilcoxon_abs_d_common_acc_logreg_vs_hgb": {
+    "p": 0.018469667432844054,
+    "median_1": 0.0011249999999999871,
+    "median_2": 0.0018750000000000155,
+    "n": 30
+   },
+   "wilcoxon_abs_d_common_acc_rf_vs_hgb": {
+    "p": 0.00440251151898752,
+    "median_1": 0.0010000000000000009,
+    "median_2": 0.0018750000000000155,
+    "n": 30
+   },
+   "wilcoxon_churn_vs_base_logreg_vs_rf": {
+    "p": 0.015189272797349789,
+    "median_1": 0.007125,
+    "median_2": 0.009375,
+    "n": 30
+   },
+   "wilcoxon_churn_vs_base_logreg_vs_hgb": {
+    "p": 5.288261332994625e-06,
+    "median_1": 0.007125,
+    "median_2": 0.020375,
+    "n": 30
+   },
+   "wilcoxon_churn_vs_base_rf_vs_hgb": {
+    "p": 1.732216233144114e-06,
+    "median_1": 0.009375,
+    "median_2": 0.020375,
+    "n": 30
+   },
+   "per_model_sensitivity": {
+    "churn_vs_base_mean": {
+     "hgb": 0.02,
+     "logreg": 0.0078333333,
+     "rf": 0.0096333333
+    },
+    "churn_vs_base_median": {
+     "hgb": 0.020375,
+     "logreg": 0.007125,
+     "rf": 0.009375
+    },
+    "churn_vs_base_max": {
+     "hgb": 0.026,
+     "logreg": 0.01425,
+     "rf": 0.01375
+    },
+    "abs_d_common_acc_mean": {
+     "hgb": 0.0022166667,
+     "logreg": 0.0013166667,
+     "rf": 0.0011666667
+    },
+    "abs_d_common_acc_median": {
+     "hgb": 0.001875,
+     "logreg": 0.001125,
+     "rf": 0.001
+    },
+    "abs_d_common_acc_max": {
+     "hgb": 0.007,
+     "logreg": 0.00375,
+     "rf": 0.00275
+    }
+   }
+  },
+  "n_units": 105,
+  "baseline": "V0"
+ },
+ "acs": {
+  "tests": {
+   "friedman_variants_logreg": {
+    "chi2": 10.0,
+    "p": 0.006737946999085468,
+    "blocks": "seeds",
+    "treatments": "variants",
+    "outcome": "common_acc"
+   },
+   "friedman_variants_rf": {
+    "chi2": 10.0,
+    "p": 0.006737946999085468,
+    "blocks": "seeds",
+    "treatments": "variants",
+    "outcome": "common_acc"
+   },
+   "friedman_variants_hgb": {
+    "chi2": 10.0,
+    "p": 0.006737946999085468,
+    "blocks": "seeds",
+    "treatments": "variants",
+    "outcome": "common_acc"
+   },
+   "friedman_models_sensitivity": {
+    "chi2": 0.0,
+    "p": 1.0,
+    "blocks": "variant x seed",
+    "treatments": "models",
+    "outcome": "|d_common_acc|"
+   },
+   "wilcoxon_abs_d_common_acc_logreg_vs_rf": {
+    "p": 0.9453125,
+    "median_1": 0.044833333333333336,
+    "median_2": 0.04199999999999998,
+    "n": 10
+   },
+   "wilcoxon_abs_d_common_acc_logreg_vs_hgb": {
+    "p": 0.6953125,
+    "median_1": 0.044833333333333336,
+    "median_2": 0.04216666666666663,
+    "n": 10
+   },
+   "wilcoxon_abs_d_common_acc_rf_vs_hgb": {
+    "p": 0.921875,
+    "median_1": 0.04199999999999998,
+    "median_2": 0.04216666666666663,
+    "n": 10
+   },
+   "wilcoxon_churn_vs_base_logreg_vs_rf": {
+    "p": 0.001953125,
+    "median_1": 0.29766666666666663,
+    "median_2": 0.36683333333333334,
+    "n": 10
+   },
+   "wilcoxon_churn_vs_base_logreg_vs_hgb": {
+    "p": 0.642578125,
+    "median_1": 0.29766666666666663,
+    "median_2": 0.29866666666666664,
+    "n": 10
+   },
+   "wilcoxon_churn_vs_base_rf_vs_hgb": {
+    "p": 0.001953125,
+    "median_1": 0.36683333333333334,
+    "median_2": 0.29866666666666664,
+    "n": 10
+   },
+   "per_model_sensitivity": {
+    "churn_vs_base_mean": {
+     "hgb": 0.2993,
+     "logreg": 0.2985,
+     "rf": 0.3673
+    },
+    "churn_vs_base_median": {
+     "hgb": 0.2986666667,
+     "logreg": 0.2976666667,
+     "rf": 0.3668333333
+    },
+    "churn_vs_base_max": {
+     "hgb": 0.3643333333,
+     "logreg": 0.3646666667,
+     "rf": 0.478
+    },
+    "abs_d_common_acc_mean": {
+     "hgb": 0.0416666667,
+     "logreg": 0.0427333333,
+     "rf": 0.0421333333
+    },
+    "abs_d_common_acc_median": {
+     "hgb": 0.0421666667,
+     "logreg": 0.0448333333,
+     "rf": 0.042
+    },
+    "abs_d_common_acc_max": {
+     "hgb": 0.0643333333,
+     "logreg": 0.063,
+     "rf": 0.0503333333
+    }
+   }
+  },
+  "n_units": 45,
+  "baseline": "T50"
+ }
+}

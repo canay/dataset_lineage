@@ -1,0 +1,10 @@
+{
+  "check_type": "PRE_GATE_STANDARD_JSONLD_PROCESSOR_CHECK",
+  "expanded_top_level_node_count": 1,
+  "input_sha256": "F424008182A001D9189228F488B7962738C4901E3DEFE4B1122B64923D726D5D",
+  "interpretation_boundary": "PyLD expansion and RDF conversion are a hash-bound pre-gate for JSON-LD syntax and local-context expansion. They are not Croissant certification or empirical metadata adjudication.",
+  "network_document_loader_used": false,
+  "nquads_statement_count": 946,
+  "pyld_version": "2.0.4",
+  "status": "PASS"
+}

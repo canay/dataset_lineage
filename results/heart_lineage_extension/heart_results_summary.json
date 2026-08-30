@@ -1,0 +1,192 @@
+{
+  "run_mode": "full",
+  "variants": [
+    "cleveland_impute_any",
+    "cleveland_drop_any",
+    "multi_site_impute_any",
+    "multi_site_drop_any",
+    "cleveland_impute_severe"
+  ],
+  "models": [
+    "logreg",
+    "rf",
+    "hgb"
+  ],
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "n_units": 150,
+  "baseline": "cleveland_impute_any",
+  "elapsed_seconds": 42.226,
+  "main_effects": [
+    {
+      "variant": "cleveland_drop_any",
+      "outcome": "churn_vs_baseline",
+      "n": 30,
+      "mean": 0.05703703703703703,
+      "sd": 0.03386967401161254,
+      "min": 0.011111111111111112,
+      "max": 0.12222222222222222,
+      "wilcoxon_p": NaN
+    },
+    {
+      "variant": "cleveland_drop_any",
+      "outcome": "d_common_acc",
+      "n": 30,
+      "mean": -0.00814814814814816,
+      "sd": 0.029459922676956476,
+      "min": -0.06666666666666665,
+      "max": 0.0444444444444444,
+      "wilcoxon_p": 0.14015968439985252
+    },
+    {
+      "variant": "cleveland_drop_any",
+      "outcome": "d_common_auc",
+      "n": 30,
+      "mean": -0.0015707671957671829,
+      "sd": 0.011705017972015407,
+      "min": -0.02331349206349209,
+      "max": 0.028273809523809534,
+      "wilcoxon_p": 0.45885445567308736
+    },
+    {
+      "variant": "cleveland_drop_any",
+      "outcome": "d_common_ece",
+      "n": 30,
+      "mean": -0.0006499321800396527,
+      "sd": 0.02198733970210886,
+      "min": -0.040286929366899565,
+      "max": 0.04234091487380408,
+      "wilcoxon_p": 0.8871948085725307
+    },
+    {
+      "variant": "cleveland_drop_any",
+      "outcome": "d_common_sex_tpr_gap",
+      "n": 30,
+      "mean": 0.01854166666666666,
+      "sd": 0.10719638526726455,
+      "min": -0.19999999999999996,
+      "max": 0.23124999999999996,
+      "wilcoxon_p": 0.33924097623242633
+    },
+    {
+      "variant": "cleveland_impute_severe",
+      "outcome": "churn_vs_baseline",
+      "n": 30,
+      "mean": 0.19481481481481483,
+      "sd": 0.030843586136066217,
+      "min": 0.12222222222222222,
+      "max": 0.3,
+      "wilcoxon_p": NaN
+    },
+    {
+      "variant": "multi_site_drop_any",
+      "outcome": "churn_vs_baseline",
+      "n": 30,
+      "mean": 0.05777777777777778,
+      "sd": 0.037865572988001424,
+      "min": 0.011111111111111112,
+      "max": 0.14444444444444443,
+      "wilcoxon_p": NaN
+    },
+    {
+      "variant": "multi_site_drop_any",
+      "outcome": "d_common_acc",
+      "n": 30,
+      "mean": -0.01555555555555556,
+      "sd": 0.025202458204145788,
+      "min": -0.07777777777777772,
+      "max": 0.033333333333333326,
+      "wilcoxon_p": 0.0032391232796322726
+    },
+    {
+      "variant": "multi_site_drop_any",
+      "outcome": "d_common_auc",
+      "n": 30,
+      "mean": -0.003968253968253965,
+      "sd": 0.01320240273019406,
+      "min": -0.0357142857142857,
+      "max": 0.025793650793650813,
+      "wilcoxon_p": 0.11322879351290917
+    },
+    {
+      "variant": "multi_site_drop_any",
+      "outcome": "d_common_ece",
+      "n": 30,
+      "mean": 0.007308597343952442,
+      "sd": 0.022963405167614793,
+      "min": -0.054997371894767645,
+      "max": 0.042387894299206655,
+      "wilcoxon_p": 0.05768792890012264
+    },
+    {
+      "variant": "multi_site_drop_any",
+      "outcome": "d_common_sex_tpr_gap",
+      "n": 30,
+      "mean": 0.016458333333333332,
+      "sd": 0.12859573254257278,
+      "min": -0.33124999999999993,
+      "max": 0.23124999999999996,
+      "wilcoxon_p": 0.333506773405866
+    },
+    {
+      "variant": "multi_site_impute_any",
+      "outcome": "churn_vs_baseline",
+      "n": 30,
+      "mean": 0.06370370370370369,
+      "sd": 0.03488512234510671,
+      "min": 0.022222222222222223,
+      "max": 0.13333333333333333,
+      "wilcoxon_p": NaN
+    },
+    {
+      "variant": "multi_site_impute_any",
+      "outcome": "d_common_acc",
+      "n": 30,
+      "mean": -0.01851851851851853,
+      "sd": 0.016591999624507647,
+      "min": -0.05555555555555558,
+      "max": 0.022222222222222143,
+      "wilcoxon_p": 3.789889073596753e-05
+    },
+    {
+      "variant": "multi_site_impute_any",
+      "outcome": "d_common_auc",
+      "n": 30,
+      "mean": -0.015079365079365074,
+      "sd": 0.014172254964975066,
+      "min": -0.05059523809523814,
+      "max": 0.02331349206349209,
+      "wilcoxon_p": 4.5775354519983155e-05
+    },
+    {
+      "variant": "multi_site_impute_any",
+      "outcome": "d_common_ece",
+      "n": 30,
+      "mean": 0.0142135171641335,
+      "sd": 0.027700173261958543,
+      "min": -0.04809344394747605,
+      "max": 0.0782995138583766,
+      "wilcoxon_p": 0.0061949919909238815
+    },
+    {
+      "variant": "multi_site_impute_any",
+      "outcome": "d_common_sex_tpr_gap",
+      "n": 30,
+      "mean": 0.009166666666666663,
+      "sd": 0.08493362858354642,
+      "min": -0.13749999999999996,
+      "max": 0.16874999999999996,
+      "wilcoxon_p": 0.5353933572922343
+    }
+  ]
+}

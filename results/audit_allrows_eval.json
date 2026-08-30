@@ -1,0 +1,19 @@
+{
+ "eval_set": "all distributed rows (incl. missing/non-workforce)",
+ "n_eval": 4000,
+ "frac_eval_rows_with_missing": 0.0755,
+ "seed": 20260622,
+ "note": "revision-environment supplementary analysis",
+ "V3_drop": {
+  "churn_vs_V0_allrows_mean": 0.01538333333333333,
+  "churn_vs_V0_allrows_sd": 0.005973054574703043,
+  "churn_vs_V0_missing_rows_only_mean": 0.03863134657836644,
+  "acc_allrows_mean": 0.8681500000000001
+ },
+ "V3_impute": {
+  "churn_vs_V0_allrows_mean": 0.013433333333333332,
+  "churn_vs_V0_allrows_sd": 0.0031812321661956857,
+  "churn_vs_V0_missing_rows_only_mean": 0.030684326710816775,
+  "acc_allrows_mean": 0.8681000000000001
+ }
+}

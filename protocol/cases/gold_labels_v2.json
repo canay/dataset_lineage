@@ -1,0 +1,22 @@
+{
+  "labels": {
+    "acsincome_t50_vs_t25": "target_sensitivity",
+    "acsincome_t50_vs_t85": "target_sensitivity",
+    "adult_openml_v2_vs_uci_concat": "lineage_only",
+    "adult_original_extraction_relaxation": "not_identifiable",
+    "adult_v0_vs_v1_workforce": "paired_behavior",
+    "adult_v0_vs_v3a_drop_missing": "paired_behavior",
+    "adult_v0_vs_v3b_mode_impute": "paired_behavior",
+    "adult_v0_vs_v4_deduplicate": "paired_behavior",
+    "adult_v0_vs_v5a_uniform_split": "paired_behavior",
+    "adult_v0_vs_v5b_historical_split": "paired_behavior",
+    "compas_c0_vs_c1_no_window": "paired_behavior",
+    "compas_c0_vs_c2_is_recid": "target_sensitivity",
+    "compas_c0_vs_c3_uniform_split": "paired_behavior",
+    "german_statlog_vs_south_german": "own_test_only",
+    "heart_any_vs_severe_target": "target_sensitivity",
+    "heart_cleveland_impute_vs_drop": "paired_behavior",
+    "heart_cleveland_vs_multisite_drop": "paired_behavior",
+    "heart_cleveland_vs_multisite_impute": "paired_behavior"
+  }
+}

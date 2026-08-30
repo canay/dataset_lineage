@@ -1,0 +1,68 @@
+{
+ "179": {
+  "id": "179",
+  "name": "adult",
+  "version": "1",
+  "upload_date": "2014-04-23T13:13:24",
+  "default_target_attribute": "class",
+  "format": "ARFF",
+  "licence": "Public",
+  "original_data_url": null,
+  "description_head": "**Author**: Ronny Kohavi and Barry Becker  \n**Source**: [UCI](https://archive.ics.uci.edu/ml/datasets/Adult) - 1996-05-01  \n**Please cite**: Ron Kohavi, \"Scaling Up the Accuracy of Naive-Bayes Classifiers: a Decision-Tree Hybrid\", Proceedings of the Second International Conference on Knowledge Discovery and Data Mining, 1996  \n\n**Note: This dataset is not the original UCI dataset. It has some discretized features. See version 2 for the original.**\n\nPrediction task is to determine whether a person makes over 50K a year. Extraction was done by Barry Becker from the 1994 Census database. A set of reasonably clean records was extracted using the following conditions: ((AAGE>16) && (AGI>100) && (AFNLWGT>1)&& (HRSWK>0))\n\nRonny Kohavi and Barry Becker. Data Mining and Visualization, Silicon Graphics.  \ne-mail: ronnyk '@' live.com for questions."
+ },
+ "1590": {
+  "id": "1590",
+  "name": "adult",
+  "version": "2",
+  "upload_date": "2015-06-09T16:39:06",
+  "default_target_attribute": "class",
+  "format": "ARFF",
+  "licence": "Public",
+  "original_data_url": "https://archive.ics.uci.edu/ml/datasets/adult",
+  "description_head": "**Author**: Ronny Kohavi and Barry Becker  \n**Source**: [UCI](https://archive.ics.uci.edu/ml/datasets/Adult) - 1996  \n**Please cite**: Ron Kohavi, \"Scaling Up the Accuracy of Naive-Bayes Classifiers: a Decision-Tree Hybrid\", Proceedings of the Second International Conference on Knowledge Discovery and Data Mining, 1996  \n\nPrediction task is to determine whether a person makes over 50K a year. Extraction was done by Barry Becker from the 1994 Census database. A set of reasonably clean records was extracted using the following conditions: ((AAGE>16) && (AGI>100) && (AFNLWGT>1)&& (HRSWK>0))\n\nThis is the original version from the UCI repository, with training and test sets merged.\n\n### Variable description\n\nVariables are all self-explanatory except __fnlwgt__. This is a proxy for the demographic background of the people: \"People with similar demographic characteristics should have similar weights\". This similarity-statement is not transferable across the 51 different states.\n\nDescription from the donor of the database: \n\nThe weights on the CPS files are controlled to independent estimates of the civilian noninstitutional population of the US.  These are prepared monthly for us by Population Division here at the Census Bureau. We use 3 sets of controls. These are:\n1.  A single cell estimate of the population 16+ for each state.\n2.  Controls for Hispanic Origin by age and sex.\n3.  Controls by Race, age and sex.\n\nWe use all three sets of controls in our weighting program and \"rake\" through them 6 times so that by the end we come back to all the controls we used. The term estimate refers to population totals derived from CPS by creating \"weighted tallies\" of any specified socio-economic characteristics of the population. People with similar demographic characteristics should have similar weights. There is one important caveat to remember about this statement. That is that since the CPS sample is actually a collection of 51 state samples, each with its own probability of selection, the statement only applies within state.\n\n\n### Relevant papers  \n\nRonny Kohavi and Barry Becker. Data Mining and Visualization, Silicon Graphics.  \ne-mail: ronnyk '@' live.com for questions."
+ },
+ "43898": {
+  "id": "43898",
+  "name": "adult",
+  "version": "3",
+  "upload_date": "2022-05-31T13:48:33",
+  "default_target_attribute": "class",
+  "format": "ARFF",
+  "licence": "public",
+  "original_data_url": null,
+  "description_head": "Predict whether income exceeds $50K/yr based on census data. Also known as Census Income dataset. Train and test sets combined. Null values represented with question mark is replaced with na. 52 duplicate values found and dropped"
+ },
+ "45068": {
+  "id": "45068",
+  "name": "adult",
+  "version": "4",
+  "upload_date": "2023-01-27T11:26:07",
+  "default_target_attribute": "class",
+  "format": "arff",
+  "licence": "Public",
+  "original_data_url": null,
+  "description_head": "Prediction task is to determine whether a person makes over 50K a year. Extraction was done by Barry Becker from the 1994 Census database. A set of reasonably clean records was extracted using the following conditions: ((AAGE>16) && (AGI>100) && (AFNLWGT>1)&& (HRSWK>0))"
+ },
+ "43141": {
+  "id": "43141",
+  "name": "ACSIncome",
+  "version": "3",
+  "upload_date": "2022-01-12T15:27:53",
+  "default_target_attribute": "PINCP",
+  "format": "ARFF",
+  "licence": "CC0",
+  "original_data_url": "https://github.com/zykls/folktables/",
+  "description_head": "The ACSIncome dataset is one of five datasets created by Ding et al. as an improved alternative to the popular UCI Adult dataset. The authors compiled data from the American Community Survey (ACS) Public Use Microdata Sample (PUMS). Data is provided for all 50 states and Puerto Rico. This upload represents the raw data from only 2018. The data contains 1,664,500 rows, 10 features, and 1 target variable. An additional column for the state code is provided for convenience.  All columns are described in the original publication (https://arxiv.org/pdf/2108.04884.pdf) as well as in the PUMS Data Dictionary (\nhttps://www2.census.gov/programs-surveys/acs/tech_docs/pums/data_dict/PUMS_Data_Dictionary_2018.pdf). Additional detail can also be found on the author's GitHub: https://github.com/zykls/folktables/"
+ },
+ "31": {
+  "id": "31",
+  "name": "credit-g",
+  "version": "1",
+  "upload_date": "2014-04-06T23:21:47",
+  "default_target_attribute": "class",
+  "format": "ARFF",
+  "licence": "Public",
+  "original_data_url": "https://archive.ics.uci.edu/ml/datasets/statlog+(german+credit+data)",
+  "description_head": "**Author**: Dr. Hans Hofmann  \n**Source**: [UCI](https://archive.ics.uci.edu/ml/datasets/statlog+(german+credit+data)) - 1994    \n**Please cite**: [UCI](https://archive.ics.uci.edu/ml/citation_policy.html)\n\n**German Credit dataset**  \nThis dataset classifies people described by a set of attributes as good or bad credit risks.\n\nThis dataset comes with a cost matrix: \n``` \nGood  Bad (predicted)  \nGood   0    1   (actual)  \nBad    5    0  \n```\n\nIt is worse to class a customer as good when they are bad (5), than it is to class a customer as bad when they are good (1).  \n\n### Attribute description  \n\n1. Status of existing checking account, in Deutsche Mark.  \n2. Duration in months  \n3. Credit history (credits taken, paid back duly, delays, critical accounts)  \n4. Purpose of the credit (car, television,...)  \n5. Credit amount  \n6. Status of savings account/bonds, in Deutsche Mark.  \n7. Present employment, in number of years.  \n8. Installment rate in percentage of disposable income  \n9. Personal status (married, single,...) and sex  \n10. Other debtors / guarantors  \n11. Present residence since X years  \n12. Property (e.g. real estate)  \n13. Age in years  \n14. Other installment plans (banks, stores)  \n15. Housing (rent, own,...)  \n16. Number of existing credits at this bank  \n17. Job  \n18. Number of people being liable to provide maintenance for  \n19. Telephone (yes,no)  \n20. Foreign worker (yes,no)"
+ }
+}

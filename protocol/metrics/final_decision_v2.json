@@ -1,0 +1,187 @@
+{
+  "ablation_changed_case_counts": {
+    "NO_EVIDENCE_GATE": 1,
+    "NO_PAIRING_GATE": 1,
+    "NO_TARGET_GATE": 4
+  },
+  "all_required_criteria_passed": true,
+  "artifact_provenance": {
+    "cases_jsonld_sha256": "F424008182A001D9189228F488B7962738C4901E3DEFE4B1122B64923D726D5D",
+    "cleanroom_comparison_sha256": "36B30CCC54A19C8B3907B1C9D15AB23B8568D7336EF57BE7235CC4B8105D7393",
+    "cleanroom_output_sha256": "B204F02E4D845522C3382BC673B9FA7140E99DD060F9774EE6E7F8D2025EBFEF",
+    "cleanroom_source_sha256": "D47EF0C65B0D28D6B860AB30D97B89A4CF3767A613094EC0CFA506D28FEAAFC8",
+    "comparison_source_sha256": "60A698284C5FC909A764EEE3CD39668DAF5A0816CC222E0C2E47FB3BCFCC80D6",
+    "jsonld_processor_validation_sha256": "67811935ADB7F3E5039471BC3D5FC7DDFA9BBE4E51A399D9EEC8EE381ECF1CD1",
+    "main_output_sha256": "8BDAF46DABC9F3638CF6D6D7FA33414DD264F2CB30B0DD82EF39E3E0DBF42E09",
+    "preliminary_summary_sha256": "73F54BE81E248E40ED05115F8C6231C7A9729A6759E52EE6068DC1EC63586502"
+  },
+  "class_support_counts": {
+    "lineage_only": 1,
+    "not_identifiable": 1,
+    "own_test_only": 1,
+    "paired_behavior": 11,
+    "target_sensitivity": 4
+  },
+  "cleanroom_case_count": 18,
+  "cleanroom_exact_case_count": 18,
+  "criteria": [
+    {
+      "criterion_id": "jsonld_carrier_validation",
+      "passed": true,
+      "threshold": true,
+      "value": true
+    },
+    {
+      "criterion_id": "field_evidence_closure",
+      "passed": true,
+      "threshold": 90,
+      "value": 90
+    },
+    {
+      "criterion_id": "full_exact",
+      "passed": true,
+      "threshold": 18,
+      "value": 18
+    },
+    {
+      "criterion_id": "full_all_classes_reachable",
+      "passed": true,
+      "threshold": 5,
+      "value": 5
+    },
+    {
+      "criterion_id": "full_unsafe_claims",
+      "passed": true,
+      "threshold": 0,
+      "value": 0
+    },
+    {
+      "criterion_id": "pairing_ablation_changes_class",
+      "passed": true,
+      "threshold": 1,
+      "value": 1
+    },
+    {
+      "criterion_id": "target_ablation_promotions",
+      "passed": true,
+      "threshold": 4,
+      "value": 4
+    },
+    {
+      "criterion_id": "evidence_ablation_changes_class",
+      "passed": true,
+      "threshold": 1,
+      "value": 1
+    },
+    {
+      "criterion_id": "documentation_only_no_classes",
+      "passed": true,
+      "threshold": 18,
+      "value": 18
+    },
+    {
+      "criterion_id": "provenance_only_no_classes",
+      "passed": true,
+      "threshold": 18,
+      "value": 18
+    },
+    {
+      "criterion_id": "hash_bound_standard_jsonld_processor_pre_gate",
+      "passed": true,
+      "threshold": true,
+      "value": true
+    },
+    {
+      "criterion_id": "cleanroom_carrier_validation_exact",
+      "passed": true,
+      "threshold": true,
+      "value": true
+    },
+    {
+      "criterion_id": "cleanroom_exact_reproduction_v2",
+      "passed": true,
+      "threshold": 18,
+      "value": 18
+    }
+  ],
+  "decision_label": "SUPPORTED_PROFILE_EXTENSION_V2",
+  "interpretation_boundary": "The result validates deterministic carrier parsing, field-to-artifact binding, and claim-class assignment for the frozen cases. It does not prove the empirical truth of manually adjudicated metadata, universal profile completeness, standard certification, or model superiority. Pairing-gate evidence and the own_test_only, lineage_only, and not_identifiable classes each have n=1 support.",
+  "safe_claim": "Across 18 frozen comparison cases, the JSON-LD gate engine and an independent clean-room implementation reproduced all claim classes and field-evidence bindings exactly; gate-ablation utility is observed only on this case set.",
+  "singleton_class_ids": [
+    "lineage_only",
+    "not_identifiable",
+    "own_test_only"
+  ],
+  "status": "verified",
+  "unsafe_claims_by_arm": {
+    "DOCUMENTATION_ONLY": {
+      "unsafe_claim_acceptance_count": 0,
+      "unsafe_claim_cases": []
+    },
+    "FULL": {
+      "unsafe_claim_acceptance_count": 0,
+      "unsafe_claim_cases": []
+    },
+    "NO_EVIDENCE_GATE": {
+      "unsafe_claim_acceptance_count": 2,
+      "unsafe_claim_cases": [
+        {
+          "claims": [
+            "individual_churn_same_task",
+            "paired_aggregate_effect"
+          ],
+          "comparison_id": "adult_openml_v2_vs_uci_concat"
+        }
+      ]
+    },
+    "NO_PAIRING_GATE": {
+      "unsafe_claim_acceptance_count": 2,
+      "unsafe_claim_cases": [
+        {
+          "claims": [
+            "individual_churn_same_task",
+            "paired_aggregate_effect"
+          ],
+          "comparison_id": "german_statlog_vs_south_german"
+        }
+      ]
+    },
+    "NO_TARGET_GATE": {
+      "unsafe_claim_acceptance_count": 8,
+      "unsafe_claim_cases": [
+        {
+          "claims": [
+            "individual_churn_same_task",
+            "paired_aggregate_effect"
+          ],
+          "comparison_id": "compas_c0_vs_c2_is_recid"
+        },
+        {
+          "claims": [
+            "individual_churn_same_task",
+            "paired_aggregate_effect"
+          ],
+          "comparison_id": "acsincome_t50_vs_t25"
+        },
+        {
+          "claims": [
+            "individual_churn_same_task",
+            "paired_aggregate_effect"
+          ],
+          "comparison_id": "acsincome_t50_vs_t85"
+        },
+        {
+          "claims": [
+            "individual_churn_same_task",
+            "paired_aggregate_effect"
+          ],
+          "comparison_id": "heart_any_vs_severe_target"
+        }
+      ]
+    },
+    "PROVENANCE_ONLY": {
+      "unsafe_claim_acceptance_count": 0,
+      "unsafe_claim_cases": []
+    }
+  }
+}

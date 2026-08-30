@@ -1,0 +1,2118 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "bla": "urn:behavioral-lineage-audit:",
+    "cr": "http://mlcommons.org/croissant/",
+    "dct": "http://purl.org/dc/terms/",
+    "prov": "http://www.w3.org/ns/prov#",
+    "sc": "http://schema.org/"
+  },
+  "@id": "urn:behavioral-lineage-audit:dataset:comparison-cases-v2",
+  "@type": [
+    "sc:Dataset",
+    "prov:Entity"
+  ],
+  "bla:case": [
+    {
+      "@id": "urn:behavioral-lineage-audit:case:adult_openml_v2_vs_uci_concat",
+      "@type": [
+        "bla:ComparisonCase",
+        "prov:Entity"
+      ],
+      "bla:behavioralExecution": "absent",
+      "bla:comparisonId": "adult_openml_v2_vs_uci_concat",
+      "bla:datasetFamily": "Adult",
+      "bla:evaluationAlignment": "same_frozen_records",
+      "bla:evidenceArtifactIds": [
+        "adult_lineage",
+        "primary_design_code"
+      ],
+      "bla:fieldEvidence": [
+        {
+          "@type": "bla:FieldEvidenceBinding",
+          "bla:field": "provenance_status",
+          "prov:wasDerivedFrom": [
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:adult_lineage"
+            },
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:primary_design_code"
+            }
+          ]
+        },
+        {
+          "@type": "bla:FieldEvidenceBinding",
+          "bla:field": "row_correspondence",
+          "prov:wasDerivedFrom": [
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:adult_lineage"
+            },
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:primary_design_code"
+            }
+          ]
+        },
+        {
+          "@type": "bla:FieldEvidenceBinding",
+          "bla:field": "target_semantics",
+          "prov:wasDerivedFrom": [
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:adult_lineage"
+            },
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:primary_design_code"
+            }
+          ]
+        },
+        {
+          "@type": "bla:FieldEvidenceBinding",
+          "bla:field": "evaluation_alignment",
+          "prov:wasDerivedFrom": [
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:adult_lineage"
+            },
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:primary_design_code"
+            }
+          ]
+        },
+        {
+          "@type": "bla:FieldEvidenceBinding",
+          "bla:field": "behavioral_execution",
+          "prov:wasDerivedFrom": [
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:adult_lineage"
+            },
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:primary_design_code"
+            }
+          ]
+        }
+      ],
+      "bla:leftState": "OpenML adult ID 1590 version 2",
+      "bla:provenanceStatus": "verified",
+      "bla:rightState": "normalized UCI adult.test plus adult.data",
+      "bla:rowCorrespondence": "verified",
+      "bla:targetSemantics": "equivalent",
+      "prov:wasDerivedFrom": [
+        {
+          "@id": "urn:behavioral-lineage-audit:evidence:adult_lineage"
+        },
+        {
+          "@id": "urn:behavioral-lineage-audit:evidence:primary_design_code"
+        }
+      ]
+    },
+    {
+      "@id": "urn:behavioral-lineage-audit:case:adult_v0_vs_v1_workforce",
+      "@type": [
+        "bla:ComparisonCase",
+        "prov:Entity"
+      ],
+      "bla:behavioralExecution": "verified",
+      "bla:comparisonId": "adult_v0_vs_v1_workforce",
+      "bla:datasetFamily": "Adult",
+      "bla:evaluationAlignment": "same_frozen_records",
+      "bla:evidenceArtifactIds": [
+        "adult_behavior",
+        "primary_unit_metrics",
+        "primary_design_code"
+      ],
+      "bla:fieldEvidence": [
+        {
+          "@type": "bla:FieldEvidenceBinding",
+          "bla:field": "provenance_status",
+          "prov:wasDerivedFrom": [
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:primary_design_code"
+            }
+          ]
+        },
+        {
+          "@type": "bla:FieldEvidenceBinding",
+          "bla:field": "row_correspondence",
+          "prov:wasDerivedFrom": [
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:adult_behavior"
+            },
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:primary_design_code"
+            }
+          ]
+        },
+        {
+          "@type": "bla:FieldEvidenceBinding",
+          "bla:field": "target_semantics",
+          "prov:wasDerivedFrom": [
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:adult_behavior"
+            },
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:primary_design_code"
+            }
+          ]
+        },
+        {
+          "@type": "bla:FieldEvidenceBinding",
+          "bla:field": "evaluation_alignment",
+          "prov:wasDerivedFrom": [
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:adult_behavior"
+            },
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:primary_unit_metrics"
+            },
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:primary_design_code"
+            }
+          ]
+        },
+        {
+          "@type": "bla:FieldEvidenceBinding",
+          "bla:field": "behavioral_execution",
+          "prov:wasDerivedFrom": [
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:adult_behavior"
+            },
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:primary_unit_metrics"
+            },
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:primary_design_code"
+            }
+          ]
+        }
+      ],
+      "bla:leftState": "V0 as distributed",
+      "bla:provenanceStatus": "verified",
+      "bla:rightState": "V1 workforce filter",
+      "bla:rowCorrespondence": "verified",
+      "bla:targetSemantics": "equivalent",
+      "prov:wasDerivedFrom": [
+        {
+          "@id": "urn:behavioral-lineage-audit:evidence:adult_behavior"
+        },
+        {
+          "@id": "urn:behavioral-lineage-audit:evidence:primary_unit_metrics"
+        },
+        {
+          "@id": "urn:behavioral-lineage-audit:evidence:primary_design_code"
+        }
+      ]
+    },
+    {
+      "@id": "urn:behavioral-lineage-audit:case:adult_v0_vs_v3a_drop_missing",
+      "@type": [
+        "bla:ComparisonCase",
+        "prov:Entity"
+      ],
+      "bla:behavioralExecution": "verified",
+      "bla:comparisonId": "adult_v0_vs_v3a_drop_missing",
+      "bla:datasetFamily": "Adult",
+      "bla:evaluationAlignment": "same_frozen_records",
+      "bla:evidenceArtifactIds": [
+        "adult_behavior",
+        "primary_unit_metrics",
+        "primary_design_code"
+      ],
+      "bla:fieldEvidence": [
+        {
+          "@type": "bla:FieldEvidenceBinding",
+          "bla:field": "provenance_status",
+          "prov:wasDerivedFrom": [
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:primary_design_code"
+            }
+          ]
+        },
+        {
+          "@type": "bla:FieldEvidenceBinding",
+          "bla:field": "row_correspondence",
+          "prov:wasDerivedFrom": [
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:adult_behavior"
+            },
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:primary_design_code"
+            }
+          ]
+        },
+        {
+          "@type": "bla:FieldEvidenceBinding",
+          "bla:field": "target_semantics",
+          "prov:wasDerivedFrom": [
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:adult_behavior"
+            },
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:primary_design_code"
+            }
+          ]
+        },
+        {
+          "@type": "bla:FieldEvidenceBinding",
+          "bla:field": "evaluation_alignment",
+          "prov:wasDerivedFrom": [
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:adult_behavior"
+            },
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:primary_unit_metrics"
+            },
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:primary_design_code"
+            }
+          ]
+        },
+        {
+          "@type": "bla:FieldEvidenceBinding",
+          "bla:field": "behavioral_execution",
+          "prov:wasDerivedFrom": [
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:adult_behavior"
+            },
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:primary_unit_metrics"
+            },
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:primary_design_code"
+            }
+          ]
+        }
+      ],
+      "bla:leftState": "V0 as distributed",
+      "bla:provenanceStatus": "verified",
+      "bla:rightState": "V3a complete-case dropping",
+      "bla:rowCorrespondence": "verified",
+      "bla:targetSemantics": "equivalent",
+      "prov:wasDerivedFrom": [
+        {
+          "@id": "urn:behavioral-lineage-audit:evidence:adult_behavior"
+        },
+        {
+          "@id": "urn:behavioral-lineage-audit:evidence:primary_unit_metrics"
+        },
+        {
+          "@id": "urn:behavioral-lineage-audit:evidence:primary_design_code"
+        }
+      ]
+    },
+    {
+      "@id": "urn:behavioral-lineage-audit:case:adult_v0_vs_v3b_mode_impute",
+      "@type": [
+        "bla:ComparisonCase",
+        "prov:Entity"
+      ],
+      "bla:behavioralExecution": "verified",
+      "bla:comparisonId": "adult_v0_vs_v3b_mode_impute",
+      "bla:datasetFamily": "Adult",
+      "bla:evaluationAlignment": "same_frozen_records",
+      "bla:evidenceArtifactIds": [
+        "adult_behavior",
+        "primary_unit_metrics",
+        "primary_design_code"
+      ],
+      "bla:fieldEvidence": [
+        {
+          "@type": "bla:FieldEvidenceBinding",
+          "bla:field": "provenance_status",
+          "prov:wasDerivedFrom": [
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:primary_design_code"
+            }
+          ]
+        },
+        {
+          "@type": "bla:FieldEvidenceBinding",
+          "bla:field": "row_correspondence",
+          "prov:wasDerivedFrom": [
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:adult_behavior"
+            },
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:primary_design_code"
+            }
+          ]
+        },
+        {
+          "@type": "bla:FieldEvidenceBinding",
+          "bla:field": "target_semantics",
+          "prov:wasDerivedFrom": [
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:adult_behavior"
+            },
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:primary_design_code"
+            }
+          ]
+        },
+        {
+          "@type": "bla:FieldEvidenceBinding",
+          "bla:field": "evaluation_alignment",
+          "prov:wasDerivedFrom": [
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:adult_behavior"
+            },
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:primary_unit_metrics"
+            },
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:primary_design_code"
+            }
+          ]
+        },
+        {
+          "@type": "bla:FieldEvidenceBinding",
+          "bla:field": "behavioral_execution",
+          "prov:wasDerivedFrom": [
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:adult_behavior"
+            },
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:primary_unit_metrics"
+            },
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:primary_design_code"
+            }
+          ]
+        }
+      ],
+      "bla:leftState": "V0 as distributed",
+      "bla:provenanceStatus": "verified",
+      "bla:rightState": "V3b mode imputation",
+      "bla:rowCorrespondence": "verified",
+      "bla:targetSemantics": "equivalent",
+      "prov:wasDerivedFrom": [
+        {
+          "@id": "urn:behavioral-lineage-audit:evidence:adult_behavior"
+        },
+        {
+          "@id": "urn:behavioral-lineage-audit:evidence:primary_unit_metrics"
+        },
+        {
+          "@id": "urn:behavioral-lineage-audit:evidence:primary_design_code"
+        }
+      ]
+    },
+    {
+      "@id": "urn:behavioral-lineage-audit:case:adult_v0_vs_v4_deduplicate",
+      "@type": [
+        "bla:ComparisonCase",
+        "prov:Entity"
+      ],
+      "bla:behavioralExecution": "verified",
+      "bla:comparisonId": "adult_v0_vs_v4_deduplicate",
+      "bla:datasetFamily": "Adult",
+      "bla:evaluationAlignment": "same_frozen_records",
+      "bla:evidenceArtifactIds": [
+        "adult_behavior",
+        "primary_unit_metrics",
+        "primary_design_code"
+      ],
+      "bla:fieldEvidence": [
+        {
+          "@type": "bla:FieldEvidenceBinding",
+          "bla:field": "provenance_status",
+          "prov:wasDerivedFrom": [
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:primary_design_code"
+            }
+          ]
+        },
+        {
+          "@type": "bla:FieldEvidenceBinding",
+          "bla:field": "row_correspondence",
+          "prov:wasDerivedFrom": [
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:adult_behavior"
+            },
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:primary_design_code"
+            }
+          ]
+        },
+        {
+          "@type": "bla:FieldEvidenceBinding",
+          "bla:field": "target_semantics",
+          "prov:wasDerivedFrom": [
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:adult_behavior"
+            },
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:primary_design_code"
+            }
+          ]
+        },
+        {
+          "@type": "bla:FieldEvidenceBinding",
+          "bla:field": "evaluation_alignment",
+          "prov:wasDerivedFrom": [
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:adult_behavior"
+            },
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:primary_unit_metrics"
+            },
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:primary_design_code"
+            }
+          ]
+        },
+        {
+          "@type": "bla:FieldEvidenceBinding",
+          "bla:field": "behavioral_execution",
+          "prov:wasDerivedFrom": [
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:adult_behavior"
+            },
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:primary_unit_metrics"
+            },
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:primary_design_code"
+            }
+          ]
+        }
+      ],
+      "bla:leftState": "V0 as distributed",
+      "bla:provenanceStatus": "verified",
+      "bla:rightState": "V4 exact feature-label deduplication",
+      "bla:rowCorrespondence": "verified",
+      "bla:targetSemantics": "equivalent",
+      "prov:wasDerivedFrom": [
+        {
+          "@id": "urn:behavioral-lineage-audit:evidence:adult_behavior"
+        },
+        {
+          "@id": "urn:behavioral-lineage-audit:evidence:primary_unit_metrics"
+        },
+        {
+          "@id": "urn:behavioral-lineage-audit:evidence:primary_design_code"
+        }
+      ]
+    },
+    {
+      "@id": "urn:behavioral-lineage-audit:case:adult_v0_vs_v5a_uniform_split",
+      "@type": [
+        "bla:ComparisonCase",
+        "prov:Entity"
+      ],
+      "bla:behavioralExecution": "verified",
+      "bla:comparisonId": "adult_v0_vs_v5a_uniform_split",
+      "bla:datasetFamily": "Adult",
+      "bla:evaluationAlignment": "same_frozen_records",
+      "bla:evidenceArtifactIds": [
+        "adult_behavior",
+        "primary_unit_metrics",
+        "primary_design_code"
+      ],
+      "bla:fieldEvidence": [
+        {
+          "@type": "bla:FieldEvidenceBinding",
+          "bla:field": "provenance_status",
+          "prov:wasDerivedFrom": [
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:primary_design_code"
+            }
+          ]
+        },
+        {
+          "@type": "bla:FieldEvidenceBinding",
+          "bla:field": "row_correspondence",
+          "prov:wasDerivedFrom": [
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:adult_behavior"
+            },
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:primary_design_code"
+            }
+          ]
+        },
+        {
+          "@type": "bla:FieldEvidenceBinding",
+          "bla:field": "target_semantics",
+          "prov:wasDerivedFrom": [
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:adult_behavior"
+            },
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:primary_design_code"
+            }
+          ]
+        },
+        {
+          "@type": "bla:FieldEvidenceBinding",
+          "bla:field": "evaluation_alignment",
+          "prov:wasDerivedFrom": [
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:adult_behavior"
+            },
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:primary_unit_metrics"
+            },
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:primary_design_code"
+            }
+          ]
+        },
+        {
+          "@type": "bla:FieldEvidenceBinding",
+          "bla:field": "behavioral_execution",
+          "prov:wasDerivedFrom": [
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:adult_behavior"
+            },
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:primary_unit_metrics"
+            },
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:primary_design_code"
+            }
+          ]
+        }
+      ],
+      "bla:leftState": "V0 stratified split",
+      "bla:provenanceStatus": "verified",
+      "bla:rightState": "V5a uniform split",
+      "bla:rowCorrespondence": "verified",
+      "bla:targetSemantics": "equivalent",
+      "prov:wasDerivedFrom": [
+        {
+          "@id": "urn:behavioral-lineage-audit:evidence:adult_behavior"
+        },
+        {
+          "@id": "urn:behavioral-lineage-audit:evidence:primary_unit_metrics"
+        },
+        {
+          "@id": "urn:behavioral-lineage-audit:evidence:primary_design_code"
+        }
+      ]
+    },
+    {
+      "@id": "urn:behavioral-lineage-audit:case:adult_v0_vs_v5b_historical_split",
+      "@type": [
+        "bla:ComparisonCase",
+        "prov:Entity"
+      ],
+      "bla:behavioralExecution": "verified",
+      "bla:comparisonId": "adult_v0_vs_v5b_historical_split",
+      "bla:datasetFamily": "Adult",
+      "bla:evaluationAlignment": "same_frozen_records",
+      "bla:evidenceArtifactIds": [
+        "adult_behavior",
+        "primary_unit_metrics",
+        "primary_design_code"
+      ],
+      "bla:fieldEvidence": [
+        {
+          "@type": "bla:FieldEvidenceBinding",
+          "bla:field": "provenance_status",
+          "prov:wasDerivedFrom": [
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:primary_design_code"
+            }
+          ]
+        },
+        {
+          "@type": "bla:FieldEvidenceBinding",
+          "bla:field": "row_correspondence",
+          "prov:wasDerivedFrom": [
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:adult_behavior"
+            },
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:primary_design_code"
+            }
+          ]
+        },
+        {
+          "@type": "bla:FieldEvidenceBinding",
+          "bla:field": "target_semantics",
+          "prov:wasDerivedFrom": [
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:adult_behavior"
+            },
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:primary_design_code"
+            }
+          ]
+        },
+        {
+          "@type": "bla:FieldEvidenceBinding",
+          "bla:field": "evaluation_alignment",
+          "prov:wasDerivedFrom": [
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:adult_behavior"
+            },
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:primary_unit_metrics"
+            },
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:primary_design_code"
+            }
+          ]
+        },
+        {
+          "@type": "bla:FieldEvidenceBinding",
+          "bla:field": "behavioral_execution",
+          "prov:wasDerivedFrom": [
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:adult_behavior"
+            },
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:primary_unit_metrics"
+            },
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:primary_design_code"
+            }
+          ]
+        }
+      ],
+      "bla:leftState": "V0 stratified split",
+      "bla:provenanceStatus": "verified",
+      "bla:rightState": "V5b historical UCI split",
+      "bla:rowCorrespondence": "verified",
+      "bla:targetSemantics": "equivalent",
+      "prov:wasDerivedFrom": [
+        {
+          "@id": "urn:behavioral-lineage-audit:evidence:adult_behavior"
+        },
+        {
+          "@id": "urn:behavioral-lineage-audit:evidence:primary_unit_metrics"
+        },
+        {
+          "@id": "urn:behavioral-lineage-audit:evidence:primary_design_code"
+        }
+      ]
+    },
+    {
+      "@id": "urn:behavioral-lineage-audit:case:adult_original_extraction_relaxation",
+      "@type": [
+        "bla:ComparisonCase",
+        "prov:Entity"
+      ],
+      "bla:behavioralExecution": "absent",
+      "bla:comparisonId": "adult_original_extraction_relaxation",
+      "bla:datasetFamily": "Adult",
+      "bla:evaluationAlignment": "unknown",
+      "bla:evidenceArtifactIds": [
+        "adult_lineage",
+        "primary_design_code"
+      ],
+      "bla:fieldEvidence": [
+        {
+          "@type": "bla:FieldEvidenceBinding",
+          "bla:field": "provenance_status",
+          "prov:wasDerivedFrom": [
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:adult_lineage"
+            },
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:primary_design_code"
+            }
+          ]
+        },
+        {
+          "@type": "bla:FieldEvidenceBinding",
+          "bla:field": "row_correspondence",
+          "prov:wasDerivedFrom": [
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:adult_lineage"
+            },
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:primary_design_code"
+            }
+          ]
+        },
+        {
+          "@type": "bla:FieldEvidenceBinding",
+          "bla:field": "target_semantics",
+          "prov:wasDerivedFrom": [
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:adult_lineage"
+            },
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:primary_design_code"
+            }
+          ]
+        },
+        {
+          "@type": "bla:FieldEvidenceBinding",
+          "bla:field": "evaluation_alignment",
+          "prov:wasDerivedFrom": [
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:adult_lineage"
+            },
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:primary_design_code"
+            }
+          ]
+        },
+        {
+          "@type": "bla:FieldEvidenceBinding",
+          "bla:field": "behavioral_execution",
+          "prov:wasDerivedFrom": [
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:adult_lineage"
+            },
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:primary_design_code"
+            }
+          ]
+        }
+      ],
+      "bla:leftState": "distributed Adult after original extraction",
+      "bla:provenanceStatus": "partial",
+      "bla:rightState": "counterfactual pre-extraction population",
+      "bla:rowCorrespondence": "unknown",
+      "bla:targetSemantics": "unknown",
+      "prov:wasDerivedFrom": [
+        {
+          "@id": "urn:behavioral-lineage-audit:evidence:adult_lineage"
+        },
+        {
+          "@id": "urn:behavioral-lineage-audit:evidence:primary_design_code"
+        }
+      ]
+    },
+    {
+      "@id": "urn:behavioral-lineage-audit:case:compas_c0_vs_c1_no_window",
+      "@type": [
+        "bla:ComparisonCase",
+        "prov:Entity"
+      ],
+      "bla:behavioralExecution": "verified",
+      "bla:comparisonId": "compas_c0_vs_c1_no_window",
+      "bla:datasetFamily": "COMPAS",
+      "bla:evaluationAlignment": "same_frozen_records",
+      "bla:evidenceArtifactIds": [
+        "compas_summary",
+        "compas_deltas",
+        "compas_design_code"
+      ],
+      "bla:fieldEvidence": [
+        {
+          "@type": "bla:FieldEvidenceBinding",
+          "bla:field": "provenance_status",
+          "prov:wasDerivedFrom": [
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:compas_summary"
+            },
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:compas_design_code"
+            }
+          ]
+        },
+        {
+          "@type": "bla:FieldEvidenceBinding",
+          "bla:field": "row_correspondence",
+          "prov:wasDerivedFrom": [
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:compas_summary"
+            },
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:compas_deltas"
+            },
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:compas_design_code"
+            }
+          ]
+        },
+        {
+          "@type": "bla:FieldEvidenceBinding",
+          "bla:field": "target_semantics",
+          "prov:wasDerivedFrom": [
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:compas_summary"
+            },
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:compas_deltas"
+            },
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:compas_design_code"
+            }
+          ]
+        },
+        {
+          "@type": "bla:FieldEvidenceBinding",
+          "bla:field": "evaluation_alignment",
+          "prov:wasDerivedFrom": [
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:compas_summary"
+            },
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:compas_deltas"
+            },
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:compas_design_code"
+            }
+          ]
+        },
+        {
+          "@type": "bla:FieldEvidenceBinding",
+          "bla:field": "behavioral_execution",
+          "prov:wasDerivedFrom": [
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:compas_summary"
+            },
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:compas_deltas"
+            },
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:compas_design_code"
+            }
+          ]
+        }
+      ],
+      "bla:leftState": "C0 ProPublica canonical",
+      "bla:provenanceStatus": "verified",
+      "bla:rightState": "C1 without screening-window filter",
+      "bla:rowCorrespondence": "verified",
+      "bla:targetSemantics": "equivalent",
+      "prov:wasDerivedFrom": [
+        {
+          "@id": "urn:behavioral-lineage-audit:evidence:compas_summary"
+        },
+        {
+          "@id": "urn:behavioral-lineage-audit:evidence:compas_deltas"
+        },
+        {
+          "@id": "urn:behavioral-lineage-audit:evidence:compas_design_code"
+        }
+      ]
+    },
+    {
+      "@id": "urn:behavioral-lineage-audit:case:compas_c0_vs_c2_is_recid",
+      "@type": [
+        "bla:ComparisonCase",
+        "prov:Entity"
+      ],
+      "bla:behavioralExecution": "verified",
+      "bla:comparisonId": "compas_c0_vs_c2_is_recid",
+      "bla:datasetFamily": "COMPAS",
+      "bla:evaluationAlignment": "same_frozen_records",
+      "bla:evidenceArtifactIds": [
+        "compas_summary",
+        "compas_deltas",
+        "compas_design_code"
+      ],
+      "bla:fieldEvidence": [
+        {
+          "@type": "bla:FieldEvidenceBinding",
+          "bla:field": "provenance_status",
+          "prov:wasDerivedFrom": [
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:compas_summary"
+            },
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:compas_design_code"
+            }
+          ]
+        },
+        {
+          "@type": "bla:FieldEvidenceBinding",
+          "bla:field": "row_correspondence",
+          "prov:wasDerivedFrom": [
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:compas_summary"
+            },
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:compas_deltas"
+            },
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:compas_design_code"
+            }
+          ]
+        },
+        {
+          "@type": "bla:FieldEvidenceBinding",
+          "bla:field": "target_semantics",
+          "prov:wasDerivedFrom": [
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:compas_summary"
+            },
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:compas_deltas"
+            },
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:compas_design_code"
+            }
+          ]
+        },
+        {
+          "@type": "bla:FieldEvidenceBinding",
+          "bla:field": "evaluation_alignment",
+          "prov:wasDerivedFrom": [
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:compas_summary"
+            },
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:compas_deltas"
+            },
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:compas_design_code"
+            }
+          ]
+        },
+        {
+          "@type": "bla:FieldEvidenceBinding",
+          "bla:field": "behavioral_execution",
+          "prov:wasDerivedFrom": [
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:compas_summary"
+            },
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:compas_deltas"
+            },
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:compas_design_code"
+            }
+          ]
+        }
+      ],
+      "bla:leftState": "C0 two_year_recid target",
+      "bla:provenanceStatus": "verified",
+      "bla:rightState": "C2 is_recid target",
+      "bla:rowCorrespondence": "verified",
+      "bla:targetSemantics": "different",
+      "prov:wasDerivedFrom": [
+        {
+          "@id": "urn:behavioral-lineage-audit:evidence:compas_summary"
+        },
+        {
+          "@id": "urn:behavioral-lineage-audit:evidence:compas_deltas"
+        },
+        {
+          "@id": "urn:behavioral-lineage-audit:evidence:compas_design_code"
+        }
+      ]
+    },
+    {
+      "@id": "urn:behavioral-lineage-audit:case:compas_c0_vs_c3_uniform_split",
+      "@type": [
+        "bla:ComparisonCase",
+        "prov:Entity"
+      ],
+      "bla:behavioralExecution": "verified",
+      "bla:comparisonId": "compas_c0_vs_c3_uniform_split",
+      "bla:datasetFamily": "COMPAS",
+      "bla:evaluationAlignment": "same_frozen_records",
+      "bla:evidenceArtifactIds": [
+        "compas_summary",
+        "compas_deltas",
+        "compas_design_code"
+      ],
+      "bla:fieldEvidence": [
+        {
+          "@type": "bla:FieldEvidenceBinding",
+          "bla:field": "provenance_status",
+          "prov:wasDerivedFrom": [
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:compas_summary"
+            },
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:compas_design_code"
+            }
+          ]
+        },
+        {
+          "@type": "bla:FieldEvidenceBinding",
+          "bla:field": "row_correspondence",
+          "prov:wasDerivedFrom": [
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:compas_summary"
+            },
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:compas_deltas"
+            },
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:compas_design_code"
+            }
+          ]
+        },
+        {
+          "@type": "bla:FieldEvidenceBinding",
+          "bla:field": "target_semantics",
+          "prov:wasDerivedFrom": [
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:compas_summary"
+            },
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:compas_deltas"
+            },
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:compas_design_code"
+            }
+          ]
+        },
+        {
+          "@type": "bla:FieldEvidenceBinding",
+          "bla:field": "evaluation_alignment",
+          "prov:wasDerivedFrom": [
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:compas_summary"
+            },
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:compas_deltas"
+            },
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:compas_design_code"
+            }
+          ]
+        },
+        {
+          "@type": "bla:FieldEvidenceBinding",
+          "bla:field": "behavioral_execution",
+          "prov:wasDerivedFrom": [
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:compas_summary"
+            },
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:compas_deltas"
+            },
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:compas_design_code"
+            }
+          ]
+        }
+      ],
+      "bla:leftState": "C0 stratified split",
+      "bla:provenanceStatus": "verified",
+      "bla:rightState": "C3 uniform split",
+      "bla:rowCorrespondence": "verified",
+      "bla:targetSemantics": "equivalent",
+      "prov:wasDerivedFrom": [
+        {
+          "@id": "urn:behavioral-lineage-audit:evidence:compas_summary"
+        },
+        {
+          "@id": "urn:behavioral-lineage-audit:evidence:compas_deltas"
+        },
+        {
+          "@id": "urn:behavioral-lineage-audit:evidence:compas_design_code"
+        }
+      ]
+    },
+    {
+      "@id": "urn:behavioral-lineage-audit:case:acsincome_t50_vs_t25",
+      "@type": [
+        "bla:ComparisonCase",
+        "prov:Entity"
+      ],
+      "bla:behavioralExecution": "verified",
+      "bla:comparisonId": "acsincome_t50_vs_t25",
+      "bla:datasetFamily": "ACSIncome",
+      "bla:evaluationAlignment": "same_frozen_records",
+      "bla:evidenceArtifactIds": [
+        "acs_deltas",
+        "primary_unit_metrics",
+        "primary_design_code"
+      ],
+      "bla:fieldEvidence": [
+        {
+          "@type": "bla:FieldEvidenceBinding",
+          "bla:field": "provenance_status",
+          "prov:wasDerivedFrom": [
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:primary_design_code"
+            }
+          ]
+        },
+        {
+          "@type": "bla:FieldEvidenceBinding",
+          "bla:field": "row_correspondence",
+          "prov:wasDerivedFrom": [
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:acs_deltas"
+            },
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:primary_design_code"
+            }
+          ]
+        },
+        {
+          "@type": "bla:FieldEvidenceBinding",
+          "bla:field": "target_semantics",
+          "prov:wasDerivedFrom": [
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:acs_deltas"
+            },
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:primary_design_code"
+            }
+          ]
+        },
+        {
+          "@type": "bla:FieldEvidenceBinding",
+          "bla:field": "evaluation_alignment",
+          "prov:wasDerivedFrom": [
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:acs_deltas"
+            },
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:primary_unit_metrics"
+            },
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:primary_design_code"
+            }
+          ]
+        },
+        {
+          "@type": "bla:FieldEvidenceBinding",
+          "bla:field": "behavioral_execution",
+          "prov:wasDerivedFrom": [
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:acs_deltas"
+            },
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:primary_unit_metrics"
+            },
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:primary_design_code"
+            }
+          ]
+        }
+      ],
+      "bla:leftState": "T50 income threshold",
+      "bla:provenanceStatus": "verified",
+      "bla:rightState": "T25 income threshold",
+      "bla:rowCorrespondence": "verified",
+      "bla:targetSemantics": "different",
+      "prov:wasDerivedFrom": [
+        {
+          "@id": "urn:behavioral-lineage-audit:evidence:acs_deltas"
+        },
+        {
+          "@id": "urn:behavioral-lineage-audit:evidence:primary_unit_metrics"
+        },
+        {
+          "@id": "urn:behavioral-lineage-audit:evidence:primary_design_code"
+        }
+      ]
+    },
+    {
+      "@id": "urn:behavioral-lineage-audit:case:acsincome_t50_vs_t85",
+      "@type": [
+        "bla:ComparisonCase",
+        "prov:Entity"
+      ],
+      "bla:behavioralExecution": "verified",
+      "bla:comparisonId": "acsincome_t50_vs_t85",
+      "bla:datasetFamily": "ACSIncome",
+      "bla:evaluationAlignment": "same_frozen_records",
+      "bla:evidenceArtifactIds": [
+        "acs_deltas",
+        "primary_unit_metrics",
+        "primary_design_code"
+      ],
+      "bla:fieldEvidence": [
+        {
+          "@type": "bla:FieldEvidenceBinding",
+          "bla:field": "provenance_status",
+          "prov:wasDerivedFrom": [
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:primary_design_code"
+            }
+          ]
+        },
+        {
+          "@type": "bla:FieldEvidenceBinding",
+          "bla:field": "row_correspondence",
+          "prov:wasDerivedFrom": [
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:acs_deltas"
+            },
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:primary_design_code"
+            }
+          ]
+        },
+        {
+          "@type": "bla:FieldEvidenceBinding",
+          "bla:field": "target_semantics",
+          "prov:wasDerivedFrom": [
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:acs_deltas"
+            },
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:primary_design_code"
+            }
+          ]
+        },
+        {
+          "@type": "bla:FieldEvidenceBinding",
+          "bla:field": "evaluation_alignment",
+          "prov:wasDerivedFrom": [
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:acs_deltas"
+            },
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:primary_unit_metrics"
+            },
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:primary_design_code"
+            }
+          ]
+        },
+        {
+          "@type": "bla:FieldEvidenceBinding",
+          "bla:field": "behavioral_execution",
+          "prov:wasDerivedFrom": [
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:acs_deltas"
+            },
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:primary_unit_metrics"
+            },
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:primary_design_code"
+            }
+          ]
+        }
+      ],
+      "bla:leftState": "T50 income threshold",
+      "bla:provenanceStatus": "verified",
+      "bla:rightState": "T85 CPI-adjusted threshold",
+      "bla:rowCorrespondence": "verified",
+      "bla:targetSemantics": "different",
+      "prov:wasDerivedFrom": [
+        {
+          "@id": "urn:behavioral-lineage-audit:evidence:acs_deltas"
+        },
+        {
+          "@id": "urn:behavioral-lineage-audit:evidence:primary_unit_metrics"
+        },
+        {
+          "@id": "urn:behavioral-lineage-audit:evidence:primary_design_code"
+        }
+      ]
+    },
+    {
+      "@id": "urn:behavioral-lineage-audit:case:german_statlog_vs_south_german",
+      "@type": [
+        "bla:ComparisonCase",
+        "prov:Entity"
+      ],
+      "bla:behavioralExecution": "verified",
+      "bla:comparisonId": "german_statlog_vs_south_german",
+      "bla:datasetFamily": "German Credit",
+      "bla:evaluationAlignment": "own_test_splits",
+      "bla:evidenceArtifactIds": [
+        "german_check",
+        "primary_unit_metrics",
+        "primary_design_code"
+      ],
+      "bla:fieldEvidence": [
+        {
+          "@type": "bla:FieldEvidenceBinding",
+          "bla:field": "provenance_status",
+          "prov:wasDerivedFrom": [
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:german_check"
+            },
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:primary_design_code"
+            }
+          ]
+        },
+        {
+          "@type": "bla:FieldEvidenceBinding",
+          "bla:field": "row_correspondence",
+          "prov:wasDerivedFrom": [
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:german_check"
+            },
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:primary_design_code"
+            }
+          ]
+        },
+        {
+          "@type": "bla:FieldEvidenceBinding",
+          "bla:field": "target_semantics",
+          "prov:wasDerivedFrom": [
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:german_check"
+            },
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:primary_design_code"
+            }
+          ]
+        },
+        {
+          "@type": "bla:FieldEvidenceBinding",
+          "bla:field": "evaluation_alignment",
+          "prov:wasDerivedFrom": [
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:primary_unit_metrics"
+            },
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:primary_design_code"
+            }
+          ]
+        },
+        {
+          "@type": "bla:FieldEvidenceBinding",
+          "bla:field": "behavioral_execution",
+          "prov:wasDerivedFrom": [
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:primary_unit_metrics"
+            },
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:primary_design_code"
+            }
+          ]
+        }
+      ],
+      "bla:leftState": "UCI Statlog German Credit",
+      "bla:provenanceStatus": "verified",
+      "bla:rightState": "corrected South German Credit",
+      "bla:rowCorrespondence": "absent",
+      "bla:targetSemantics": "equivalent",
+      "prov:wasDerivedFrom": [
+        {
+          "@id": "urn:behavioral-lineage-audit:evidence:german_check"
+        },
+        {
+          "@id": "urn:behavioral-lineage-audit:evidence:primary_unit_metrics"
+        },
+        {
+          "@id": "urn:behavioral-lineage-audit:evidence:primary_design_code"
+        }
+      ]
+    },
+    {
+      "@id": "urn:behavioral-lineage-audit:case:heart_cleveland_impute_vs_drop",
+      "@type": [
+        "bla:ComparisonCase",
+        "prov:Entity"
+      ],
+      "bla:behavioralExecution": "verified",
+      "bla:comparisonId": "heart_cleveland_impute_vs_drop",
+      "bla:datasetFamily": "Heart Disease",
+      "bla:evaluationAlignment": "same_frozen_records",
+      "bla:evidenceArtifactIds": [
+        "heart_summary",
+        "heart_deltas",
+        "heart_design_code"
+      ],
+      "bla:fieldEvidence": [
+        {
+          "@type": "bla:FieldEvidenceBinding",
+          "bla:field": "provenance_status",
+          "prov:wasDerivedFrom": [
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:heart_summary"
+            },
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:heart_design_code"
+            }
+          ]
+        },
+        {
+          "@type": "bla:FieldEvidenceBinding",
+          "bla:field": "row_correspondence",
+          "prov:wasDerivedFrom": [
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:heart_summary"
+            },
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:heart_deltas"
+            },
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:heart_design_code"
+            }
+          ]
+        },
+        {
+          "@type": "bla:FieldEvidenceBinding",
+          "bla:field": "target_semantics",
+          "prov:wasDerivedFrom": [
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:heart_summary"
+            },
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:heart_deltas"
+            },
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:heart_design_code"
+            }
+          ]
+        },
+        {
+          "@type": "bla:FieldEvidenceBinding",
+          "bla:field": "evaluation_alignment",
+          "prov:wasDerivedFrom": [
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:heart_summary"
+            },
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:heart_deltas"
+            },
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:heart_design_code"
+            }
+          ]
+        },
+        {
+          "@type": "bla:FieldEvidenceBinding",
+          "bla:field": "behavioral_execution",
+          "prov:wasDerivedFrom": [
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:heart_summary"
+            },
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:heart_deltas"
+            },
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:heart_design_code"
+            }
+          ]
+        }
+      ],
+      "bla:leftState": "Cleveland impute any-disease",
+      "bla:provenanceStatus": "verified",
+      "bla:rightState": "Cleveland complete-case any-disease",
+      "bla:rowCorrespondence": "verified",
+      "bla:targetSemantics": "equivalent",
+      "prov:wasDerivedFrom": [
+        {
+          "@id": "urn:behavioral-lineage-audit:evidence:heart_summary"
+        },
+        {
+          "@id": "urn:behavioral-lineage-audit:evidence:heart_deltas"
+        },
+        {
+          "@id": "urn:behavioral-lineage-audit:evidence:heart_design_code"
+        }
+      ]
+    },
+    {
+      "@id": "urn:behavioral-lineage-audit:case:heart_cleveland_vs_multisite_impute",
+      "@type": [
+        "bla:ComparisonCase",
+        "prov:Entity"
+      ],
+      "bla:behavioralExecution": "verified",
+      "bla:comparisonId": "heart_cleveland_vs_multisite_impute",
+      "bla:datasetFamily": "Heart Disease",
+      "bla:evaluationAlignment": "same_frozen_records",
+      "bla:evidenceArtifactIds": [
+        "heart_summary",
+        "heart_deltas",
+        "heart_design_code"
+      ],
+      "bla:fieldEvidence": [
+        {
+          "@type": "bla:FieldEvidenceBinding",
+          "bla:field": "provenance_status",
+          "prov:wasDerivedFrom": [
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:heart_summary"
+            },
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:heart_design_code"
+            }
+          ]
+        },
+        {
+          "@type": "bla:FieldEvidenceBinding",
+          "bla:field": "row_correspondence",
+          "prov:wasDerivedFrom": [
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:heart_summary"
+            },
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:heart_deltas"
+            },
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:heart_design_code"
+            }
+          ]
+        },
+        {
+          "@type": "bla:FieldEvidenceBinding",
+          "bla:field": "target_semantics",
+          "prov:wasDerivedFrom": [
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:heart_summary"
+            },
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:heart_deltas"
+            },
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:heart_design_code"
+            }
+          ]
+        },
+        {
+          "@type": "bla:FieldEvidenceBinding",
+          "bla:field": "evaluation_alignment",
+          "prov:wasDerivedFrom": [
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:heart_summary"
+            },
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:heart_deltas"
+            },
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:heart_design_code"
+            }
+          ]
+        },
+        {
+          "@type": "bla:FieldEvidenceBinding",
+          "bla:field": "behavioral_execution",
+          "prov:wasDerivedFrom": [
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:heart_summary"
+            },
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:heart_deltas"
+            },
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:heart_design_code"
+            }
+          ]
+        }
+      ],
+      "bla:leftState": "Cleveland impute any-disease",
+      "bla:provenanceStatus": "verified",
+      "bla:rightState": "four-site impute any-disease",
+      "bla:rowCorrespondence": "verified",
+      "bla:targetSemantics": "equivalent",
+      "prov:wasDerivedFrom": [
+        {
+          "@id": "urn:behavioral-lineage-audit:evidence:heart_summary"
+        },
+        {
+          "@id": "urn:behavioral-lineage-audit:evidence:heart_deltas"
+        },
+        {
+          "@id": "urn:behavioral-lineage-audit:evidence:heart_design_code"
+        }
+      ]
+    },
+    {
+      "@id": "urn:behavioral-lineage-audit:case:heart_cleveland_vs_multisite_drop",
+      "@type": [
+        "bla:ComparisonCase",
+        "prov:Entity"
+      ],
+      "bla:behavioralExecution": "verified",
+      "bla:comparisonId": "heart_cleveland_vs_multisite_drop",
+      "bla:datasetFamily": "Heart Disease",
+      "bla:evaluationAlignment": "same_frozen_records",
+      "bla:evidenceArtifactIds": [
+        "heart_summary",
+        "heart_deltas",
+        "heart_design_code"
+      ],
+      "bla:fieldEvidence": [
+        {
+          "@type": "bla:FieldEvidenceBinding",
+          "bla:field": "provenance_status",
+          "prov:wasDerivedFrom": [
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:heart_summary"
+            },
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:heart_design_code"
+            }
+          ]
+        },
+        {
+          "@type": "bla:FieldEvidenceBinding",
+          "bla:field": "row_correspondence",
+          "prov:wasDerivedFrom": [
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:heart_summary"
+            },
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:heart_deltas"
+            },
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:heart_design_code"
+            }
+          ]
+        },
+        {
+          "@type": "bla:FieldEvidenceBinding",
+          "bla:field": "target_semantics",
+          "prov:wasDerivedFrom": [
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:heart_summary"
+            },
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:heart_deltas"
+            },
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:heart_design_code"
+            }
+          ]
+        },
+        {
+          "@type": "bla:FieldEvidenceBinding",
+          "bla:field": "evaluation_alignment",
+          "prov:wasDerivedFrom": [
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:heart_summary"
+            },
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:heart_deltas"
+            },
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:heart_design_code"
+            }
+          ]
+        },
+        {
+          "@type": "bla:FieldEvidenceBinding",
+          "bla:field": "behavioral_execution",
+          "prov:wasDerivedFrom": [
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:heart_summary"
+            },
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:heart_deltas"
+            },
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:heart_design_code"
+            }
+          ]
+        }
+      ],
+      "bla:leftState": "Cleveland impute any-disease",
+      "bla:provenanceStatus": "verified",
+      "bla:rightState": "four-site complete-case any-disease",
+      "bla:rowCorrespondence": "verified",
+      "bla:targetSemantics": "equivalent",
+      "prov:wasDerivedFrom": [
+        {
+          "@id": "urn:behavioral-lineage-audit:evidence:heart_summary"
+        },
+        {
+          "@id": "urn:behavioral-lineage-audit:evidence:heart_deltas"
+        },
+        {
+          "@id": "urn:behavioral-lineage-audit:evidence:heart_design_code"
+        }
+      ]
+    },
+    {
+      "@id": "urn:behavioral-lineage-audit:case:heart_any_vs_severe_target",
+      "@type": [
+        "bla:ComparisonCase",
+        "prov:Entity"
+      ],
+      "bla:behavioralExecution": "verified",
+      "bla:comparisonId": "heart_any_vs_severe_target",
+      "bla:datasetFamily": "Heart Disease",
+      "bla:evaluationAlignment": "same_frozen_records",
+      "bla:evidenceArtifactIds": [
+        "heart_summary",
+        "heart_deltas",
+        "heart_design_code"
+      ],
+      "bla:fieldEvidence": [
+        {
+          "@type": "bla:FieldEvidenceBinding",
+          "bla:field": "provenance_status",
+          "prov:wasDerivedFrom": [
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:heart_summary"
+            },
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:heart_design_code"
+            }
+          ]
+        },
+        {
+          "@type": "bla:FieldEvidenceBinding",
+          "bla:field": "row_correspondence",
+          "prov:wasDerivedFrom": [
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:heart_summary"
+            },
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:heart_deltas"
+            },
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:heart_design_code"
+            }
+          ]
+        },
+        {
+          "@type": "bla:FieldEvidenceBinding",
+          "bla:field": "target_semantics",
+          "prov:wasDerivedFrom": [
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:heart_summary"
+            },
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:heart_deltas"
+            },
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:heart_design_code"
+            }
+          ]
+        },
+        {
+          "@type": "bla:FieldEvidenceBinding",
+          "bla:field": "evaluation_alignment",
+          "prov:wasDerivedFrom": [
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:heart_summary"
+            },
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:heart_deltas"
+            },
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:heart_design_code"
+            }
+          ]
+        },
+        {
+          "@type": "bla:FieldEvidenceBinding",
+          "bla:field": "behavioral_execution",
+          "prov:wasDerivedFrom": [
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:heart_summary"
+            },
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:heart_deltas"
+            },
+            {
+              "@id": "urn:behavioral-lineage-audit:evidence:heart_design_code"
+            }
+          ]
+        }
+      ],
+      "bla:leftState": "Cleveland any-disease target",
+      "bla:provenanceStatus": "verified",
+      "bla:rightState": "Cleveland severity at least 2 target",
+      "bla:rowCorrespondence": "verified",
+      "bla:targetSemantics": "different",
+      "prov:wasDerivedFrom": [
+        {
+          "@id": "urn:behavioral-lineage-audit:evidence:heart_summary"
+        },
+        {
+          "@id": "urn:behavioral-lineage-audit:evidence:heart_deltas"
+        },
+        {
+          "@id": "urn:behavioral-lineage-audit:evidence:heart_design_code"
+        }
+      ]
+    }
+  ],
+  "bla:caseCount": 18,
+  "bla:claimCatalog": [
+    "lineage_fact",
+    "paired_aggregate_effect",
+    "individual_churn_same_task",
+    "same_task_superiority",
+    "target_sensitivity",
+    "same_record_decision_difference_across_targets",
+    "own_test_difficulty"
+  ],
+  "bla:evidenceCatalog": [
+    {
+      "@id": "urn:behavioral-lineage-audit:evidence:adult_lineage",
+      "@type": [
+        "prov:Entity",
+        "bla:EvidenceArtifact"
+      ],
+      "bla:artifactId": "adult_lineage",
+      "bla:sha256": "65BFB0773F50C940D0C025EB598C594FA150B007E32A779D19A308721BEEC1F5",
+      "bla:supportsField": [
+        "provenance_status",
+        "row_correspondence",
+        "target_semantics",
+        "evaluation_alignment",
+        "behavioral_execution"
+      ],
+      "sc:contentUrl": "results/lineage_stats.json"
+    },
+    {
+      "@id": "urn:behavioral-lineage-audit:evidence:adult_behavior",
+      "@type": [
+        "prov:Entity",
+        "bla:EvidenceArtifact"
+      ],
+      "bla:artifactId": "adult_behavior",
+      "bla:sha256": "7420586966DBF74D33A75E444C57678115A38F6232CF7C01F320BEE8A29D8779",
+      "bla:supportsField": [
+        "row_correspondence",
+        "target_semantics",
+        "evaluation_alignment",
+        "behavioral_execution"
+      ],
+      "sc:contentUrl": "results/adult_deltas_vs_base.csv"
+    },
+    {
+      "@id": "urn:behavioral-lineage-audit:evidence:primary_unit_metrics",
+      "@type": [
+        "prov:Entity",
+        "bla:EvidenceArtifact"
+      ],
+      "bla:artifactId": "primary_unit_metrics",
+      "bla:sha256": "443EA7B17AC442BACD5D3DFBDF25C30BBA925835594577B66925B430D271F44C",
+      "bla:supportsField": [
+        "evaluation_alignment",
+        "behavioral_execution"
+      ],
+      "sc:contentUrl": "results/unit_metrics.csv"
+    },
+    {
+      "@id": "urn:behavioral-lineage-audit:evidence:compas_summary",
+      "@type": [
+        "prov:Entity",
+        "bla:EvidenceArtifact"
+      ],
+      "bla:artifactId": "compas_summary",
+      "bla:sha256": "1CC7BC9F25D7B5EB09B058DE689020BD5CAF571A6D898ECCC0C2C8E647A704E9",
+      "bla:supportsField": [
+        "provenance_status",
+        "row_correspondence",
+        "target_semantics",
+        "evaluation_alignment",
+        "behavioral_execution"
+      ],
+      "sc:contentUrl": "results/compas_summary.json"
+    },
+    {
+      "@id": "urn:behavioral-lineage-audit:evidence:compas_deltas",
+      "@type": [
+        "prov:Entity",
+        "bla:EvidenceArtifact"
+      ],
+      "bla:artifactId": "compas_deltas",
+      "bla:sha256": "F4BEC76441C067BBCDA17C7A6C19E402BD08C931E698E6B32A15AC0FF8E466E9",
+      "bla:supportsField": [
+        "row_correspondence",
+        "target_semantics",
+        "evaluation_alignment",
+        "behavioral_execution"
+      ],
+      "sc:contentUrl": "results/compas_deltas.csv"
+    },
+    {
+      "@id": "urn:behavioral-lineage-audit:evidence:acs_deltas",
+      "@type": [
+        "prov:Entity",
+        "bla:EvidenceArtifact"
+      ],
+      "bla:artifactId": "acs_deltas",
+      "bla:sha256": "F1CC83ECAA945088CA2CBA9E3822FDDD1D710312F65E1AAA5B0FE603618700E5",
+      "bla:supportsField": [
+        "row_correspondence",
+        "target_semantics",
+        "evaluation_alignment",
+        "behavioral_execution"
+      ],
+      "sc:contentUrl": "results/acs_deltas_vs_base.csv"
+    },
+    {
+      "@id": "urn:behavioral-lineage-audit:evidence:german_check",
+      "@type": [
+        "prov:Entity",
+        "bla:EvidenceArtifact"
+      ],
+      "bla:artifactId": "german_check",
+      "bla:sha256": "E84F5802D742B360B3248EE90EF762F9184DA33562014DD14E4ED58B05B4B832",
+      "bla:supportsField": [
+        "provenance_status",
+        "row_correspondence",
+        "target_semantics"
+      ],
+      "sc:contentUrl": "results/german_credit_check.json"
+    },
+    {
+      "@id": "urn:behavioral-lineage-audit:evidence:heart_summary",
+      "@type": [
+        "prov:Entity",
+        "bla:EvidenceArtifact"
+      ],
+      "bla:artifactId": "heart_summary",
+      "bla:sha256": "3DC82707900472857817A70EF6B4F07B86ECA95E9C8BAAC15CCB5BB6FC31D977",
+      "bla:supportsField": [
+        "provenance_status",
+        "row_correspondence",
+        "target_semantics",
+        "evaluation_alignment",
+        "behavioral_execution"
+      ],
+      "sc:contentUrl": "results/heart_lineage_extension/heart_results_summary.json"
+    },
+    {
+      "@id": "urn:behavioral-lineage-audit:evidence:heart_deltas",
+      "@type": [
+        "prov:Entity",
+        "bla:EvidenceArtifact"
+      ],
+      "bla:artifactId": "heart_deltas",
+      "bla:sha256": "28A36D85AA2E30002AF78419F1C235B97CB7F09CE1D10CC48AF68A3C2EAB591F",
+      "bla:supportsField": [
+        "row_correspondence",
+        "target_semantics",
+        "evaluation_alignment",
+        "behavioral_execution"
+      ],
+      "sc:contentUrl": "results/heart_lineage_extension/heart_deltas_vs_baseline.csv"
+    },
+    {
+      "@id": "urn:behavioral-lineage-audit:evidence:primary_design_code",
+      "@type": [
+        "prov:Entity",
+        "bla:EvidenceArtifact"
+      ],
+      "bla:artifactId": "primary_design_code",
+      "bla:sha256": "3C16BC5068AFC69EA4CCE93569A379EEB2F6EA38B7AFA3F1D38291C4E0FE4950",
+      "bla:supportsField": [
+        "provenance_status",
+        "row_correspondence",
+        "target_semantics",
+        "evaluation_alignment",
+        "behavioral_execution"
+      ],
+      "sc:contentUrl": "code/prepare_data.py"
+    },
+    {
+      "@id": "urn:behavioral-lineage-audit:evidence:compas_design_code",
+      "@type": [
+        "prov:Entity",
+        "bla:EvidenceArtifact"
+      ],
+      "bla:artifactId": "compas_design_code",
+      "bla:sha256": "A5163E23D5C01B744673A735207330E09E9D130C39F6D8B34D91790E54BAAD80",
+      "bla:supportsField": [
+        "provenance_status",
+        "row_correspondence",
+        "target_semantics",
+        "evaluation_alignment",
+        "behavioral_execution"
+      ],
+      "sc:contentUrl": "code/run_compas_lineage.py"
+    },
+    {
+      "@id": "urn:behavioral-lineage-audit:evidence:heart_design_code",
+      "@type": [
+        "prov:Entity",
+        "bla:EvidenceArtifact"
+      ],
+      "bla:artifactId": "heart_design_code",
+      "bla:sha256": "193422B5E9F1A3804AB3D247A8C0EECA4E4BB91B4B02875F60FB55F6B030D9B4",
+      "bla:supportsField": [
+        "provenance_status",
+        "row_correspondence",
+        "target_semantics",
+        "evaluation_alignment",
+        "behavioral_execution"
+      ],
+      "sc:contentUrl": "code/run_heart_lineage_extension.py"
+    }
+  ],
+  "cr:recordSet": [
+    {
+      "@id": "comparison_cases",
+      "@type": "cr:RecordSet",
+      "cr:field": [
+        {
+          "@id": "comparison_cases/comparison_id",
+          "@type": "cr:Field",
+          "cr:dataType": "sc:Text",
+          "cr:equivalentProperty": "bla:comparisonId",
+          "name": "comparison_id"
+        },
+        {
+          "@id": "comparison_cases/dataset_family",
+          "@type": "cr:Field",
+          "cr:dataType": "sc:Text",
+          "cr:equivalentProperty": "bla:datasetFamily",
+          "name": "dataset_family"
+        },
+        {
+          "@id": "comparison_cases/left_state",
+          "@type": "cr:Field",
+          "cr:dataType": "sc:Text",
+          "cr:equivalentProperty": "bla:leftState",
+          "name": "left_state"
+        },
+        {
+          "@id": "comparison_cases/right_state",
+          "@type": "cr:Field",
+          "cr:dataType": "sc:Text",
+          "cr:equivalentProperty": "bla:rightState",
+          "name": "right_state"
+        },
+        {
+          "@id": "comparison_cases/provenance_status",
+          "@type": "cr:Field",
+          "cr:dataType": "sc:Text",
+          "cr:equivalentProperty": "bla:provenanceStatus",
+          "name": "provenance_status"
+        },
+        {
+          "@id": "comparison_cases/row_correspondence",
+          "@type": "cr:Field",
+          "cr:dataType": "sc:Text",
+          "cr:equivalentProperty": "bla:rowCorrespondence",
+          "name": "row_correspondence"
+        },
+        {
+          "@id": "comparison_cases/target_semantics",
+          "@type": "cr:Field",
+          "cr:dataType": "sc:Text",
+          "cr:equivalentProperty": "bla:targetSemantics",
+          "name": "target_semantics"
+        },
+        {
+          "@id": "comparison_cases/evaluation_alignment",
+          "@type": "cr:Field",
+          "cr:dataType": "sc:Text",
+          "cr:equivalentProperty": "bla:evaluationAlignment",
+          "name": "evaluation_alignment"
+        },
+        {
+          "@id": "comparison_cases/behavioral_execution",
+          "@type": "cr:Field",
+          "cr:dataType": "sc:Text",
+          "cr:equivalentProperty": "bla:behavioralExecution",
+          "name": "behavioral_execution"
+        },
+        {
+          "@id": "comparison_cases/evidence_artifact_ids",
+          "@type": "cr:Field",
+          "cr:dataType": "sc:Text",
+          "cr:equivalentProperty": "bla:evidenceArtifactIds",
+          "name": "evidence_artifact_ids"
+        },
+        {
+          "@id": "comparison_cases/field_evidence",
+          "@type": "cr:Field",
+          "cr:dataType": "sc:Text",
+          "cr:equivalentProperty": "bla:fieldEvidence",
+          "name": "field_evidence"
+        }
+      ],
+      "cr:key": {
+        "@id": "comparison_cases/comparison_id"
+      },
+      "name": "comparison_cases"
+    }
+  ],
+  "dct:conformsTo": [
+    "http://mlcommons.org/croissant/1.1",
+    "urn:behavioral-lineage-audit:comparison-profile:2.0.0-candidate"
+  ],
+  "name": "Behavioral dataset-lineage comparison cases v2",
+  "prov:wasGeneratedBy": {
+    "@id": "urn:behavioral-lineage-audit:activity:v2-input-build-20260826",
+    "@type": "prov:Activity",
+    "prov:hadPlan": {
+      "@id": "urn:behavioral-lineage-audit:plan:v2-validation",
+      "@type": "prov:Plan"
+    }
+  }
+}

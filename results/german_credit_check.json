@@ -1,0 +1,37 @@
+{
+ "shapes": {
+  "statlog": [
+   1000,
+   21
+  ],
+  "south_german": [
+   1000,
+   21
+  ]
+ },
+ "numeric_checks": {
+  "col1(laufzeit)_equal": false,
+  "col4(hoehe)_equal": false,
+  "col7(rate)_equal": false,
+  "col10(wohnzeit)_equal": false,
+  "col12(alter)_equal": false,
+  "col15(bishkred)_equal": false,
+  "col17(pers)_equal": false,
+  "target_equal_good1": false
+ },
+ "categorical_marginal_checks": {
+  "laufkont_codecount_match": true,
+  "moral_codecount_match": true,
+  "verw_codecount_match": true,
+  "sparkont_codecount_match": true,
+  "beszeit_codecount_match": true,
+  "famges_codecount_match": true,
+  "buerge_codecount_match": true,
+  "verm_codecount_match": true,
+  "weitkred_codecount_match": true,
+  "wohn_codecount_match": false,
+  "beruf_codecount_match": true,
+  "telef_codecount_match": true,
+  "gastarb_codecount_match": true
+ }
+}

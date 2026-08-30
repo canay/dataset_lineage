@@ -1,0 +1,18 @@
+{
+ "n_raw_person_records": 42117,
+ "fail_AGEP>16": 7613,
+ "fail_PINCP>100": 10349,
+ "fail_WKHP>0": 20002,
+ "fail_PWGTP>=1": 0,
+ "n_after_filter": 21919,
+ "n_after_feature_na_drop": 21919,
+ "pos_rate_T25": 0.6595647611661116,
+ "pos_rate_T50": 0.3644783064920845,
+ "pos_rate_T85": 0.16784524841461745,
+ "common_eval_n": 3000,
+ "thresholds_usd": {
+  "T25": 25000,
+  "T50": 50000,
+  "T85": 84700
+ }
+}

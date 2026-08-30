@@ -1,0 +1,75 @@
+{
+  "operation_id": "f04-behavioral-lineage-profile-validation-v2-20260826",
+  "project_id": "SCI-f04-dataset_lineage",
+  "makale_kisa_adi": "dataset_lineage",
+  "run_id": "2026-08-26_codex_local_comparison_admissibility_validation_v2",
+  "date": "2026-08-26",
+  "tool": "Codex and Claude CLI clean-room implementation",
+  "model": "GPT-5 / claude-sonnet-5",
+  "location": "local",
+  "slug": "comparison_admissibility_validation_v2",
+  "status": "verified",
+  "manuscript_role": "Hash-bound JSON-LD application-profile validation, gate ablation, and independent clean-room reproduction; no model retraining.",
+  "commands": [
+    "python src/run_preliminary_v2.py",
+    "python cleanroom/claude_cleanroom_validator_v2.py data_inputs/cases_sanitized_v2.jsonld cleanroom/claude_full_v2.json",
+    "python src/compare_cleanroom_v2.py --main raw_outputs/full.json --cleanroom cleanroom/claude_full_v2.json --cases-jsonld data_inputs/cases_sanitized_v2.jsonld --cleanroom-source cleanroom/claude_cleanroom_validator_v2.py --output processed_outputs/cleanroom_comparison_v2.json",
+    "python src/finalize_v2.py --preliminary processed_outputs/preliminary_summary_v2.json --cleanroom-comparison processed_outputs/cleanroom_comparison_v2.json --jsonld-diagnostic metrics/jsonld_processor_validation.json --comparison-source src/compare_cleanroom_v2.py --output metrics/final_decision_v2.json",
+    "python src/test_fail_closed_v2.py --cases-jsonld data_inputs/cases_sanitized_v2.jsonld --config configs/profile_config_v2.json",
+    "python src/test_cleanroom_fail_closed_v2.py"
+  ],
+  "hyperparameters": {
+    "case_count": 18,
+    "arm_count": 6,
+    "planned_decisions": 108,
+    "decision_fields_per_case": 5,
+    "required_field_evidence_bindings": 90,
+    "workers": 1
+  },
+  "source_manifest": [
+    "MD/02_design/comparison_admissibility_profile_candidate_v2.md",
+    "MD/02_design/comparison_cases_candidate_v2.json",
+    "MD/02_design/experiment_plan_v2.md",
+    "MD/02_design/analysis_plan_v2.md",
+    "MD/02_design/failure_criteria_v2.md",
+    "configs/profile_config_v2.json",
+    "src/build_inputs_v2.py",
+    "src/validate_jsonld_processor.py",
+    "src/validate_profile_v2.py",
+    "src/aggregate_v2.py",
+    "src/compare_cleanroom_v2.py",
+    "src/finalize_v2.py",
+    "cleanroom/claude_cleanroom_validator_v2.py"
+  ],
+  "input_hashes": {
+    "profile_v2_sha256": "A4228E2A5DFE673637B11B43139CF63618BF71C338F91F23F89040AD07F83EB7",
+    "cases_jsonld_sha256": "F424008182A001D9189228F488B7962738C4901E3DEFE4B1122B64923D726D5D",
+    "config_sha256": "21906AA265842D2184E09EA7D86B2C8F6DBB414BB2C435494DD39F197666D5B1",
+    "cleanroom_source_sha256": "D47EF0C65B0D28D6B860AB30D97B89A4CF3767A613094EC0CFA506D28FEAAFC8"
+  },
+  "results": {
+    "decision_label": "SUPPORTED_PROFILE_EXTENSION_V2",
+    "cleanroom_exact_case_count": 18,
+    "field_evidence_binding_count": 90,
+    "unsafe_claim_acceptance_count_full": 0,
+    "ablation_changed_case_counts": {
+      "NO_PAIRING_GATE": 1,
+      "NO_TARGET_GATE": 4,
+      "NO_EVIDENCE_GATE": 1
+    }
+  },
+  "freeze": {
+    "freeze_id": "f04-comparison-admissibility-v2-20260826",
+    "final_sha256": "8d2e280611d057b26ae7057b522b0b72e24bb2524c74d37ef8003cdbf2dd2459",
+    "decision_sha256": "8bc3d8a5434a078ed69a532474178e6125317d94b99fa0888b13a95ebd96a9bb",
+    "threshold_id": "all_predeclared_v2_criteria",
+    "threshold_value": "all_required_criteria_passed=true",
+    "timebase": "frozen_comparison_case_index"
+  },
+  "notes": [
+    "Gold labels were unavailable to the independent clean-room implementation.",
+    "The PyLD check is a syntax/expansion and hash-binding pre-gate, not Croissant certification.",
+    "MTA, VPS, and GPU were not used because the deterministic local run completed well below five minutes and more compute would not increase scientific validity.",
+    "Public release, DOI, upload, submission, and author-finalization remain outside this run's authority."
+  ]
+}

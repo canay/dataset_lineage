@@ -1,0 +1,21 @@
+{
+  "date_time": "2026-08-26 17:20 +03:00",
+  "tool": "Claude CLI",
+  "model": "claude-sonnet-5",
+  "operation_id": "f04-behavioral-lineage-profile-validation-v2-20260826",
+  "session_id": "f233ace5-8c38-4851-b8c8-25bbe407cf83",
+  "response_uuid": "a934e50b-aa63-4889-9a60-8df995372d30",
+  "web_search_requests": 0,
+  "web_fetch_requests": 0,
+  "subagents_spawned": 0,
+  "permission_denials": 0,
+  "input_sha256": {
+    "comparison_admissibility_profile_candidate.md": "8D850A7AB6F1A36330E363FE2B7215D872018C8B7C5230BB72899DE1214A5A24",
+    "comparison_admissibility_profile_candidate_v2.md": "A4228E2A5DFE673637B11B43139CF63618BF71C338F91F23F89040AD07F83EB7",
+    "cases_sanitized_v2.jsonld": "F424008182A001D9189228F488B7962738C4901E3DEFE4B1122B64923D726D5D",
+    "cleanroom_contract_v2.md": "B3DB28EA290E61F8A1F8FD7DAF6B1BBAC3500A897041FDA25698C115888967E4"
+  },
+  "source_status": "verbatim_model_result_after_fence_check",
+  "prior_attempts_read": false,
+  "gold_or_primary_outputs_read": false
+}
