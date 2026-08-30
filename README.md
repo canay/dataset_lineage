@@ -17,7 +17,7 @@ The package supports two related tasks:
 
 ## Data policy
 
-Raw benchmark files are not redistributed. Obtain them from their original repositories and retain their original terms of use. The manuscript’s provenance table identifies the source artifacts and reports their SHA-256 digests. The analysis scripts expect source files under `data/`; see the path constants at the beginning of `code/prepare_data.py`, `code/run_compas_lineage.py`, and `code/run_heart_lineage_extension.py` for the required local layout.
+Raw benchmark files are not redistributed. Obtain them from their original repositories and retain their original terms of use. The manuscript’s provenance table identifies the source artifacts and byte sizes; `provenance/source_file_manifest.json` records SHA-256 digests for the downloaded files used in the analyses. The analysis scripts expect source files under `data/`; see the path constants at the beginning of `code/prepare_data.py`, `code/run_compas_lineage.py`, and `code/run_heart_lineage_extension.py` for the required local layout.
 
 The study uses Adult and German Credit source files from the UCI Machine Learning Repository, ACS PUMS files from the U.S. Census Bureau, the public COMPAS file released by ProPublica, and the UCI Heart Disease files. OpenML metadata captured for the lineage reconstruction is provided in `provenance/openml_lineage_meta.json`.
 

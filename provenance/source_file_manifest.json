@@ -1,0 +1,71 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-08-31T00:12:39+03:00",
+  "tool": "Codex",
+  "model": "GPT-5",
+  "operation_id": "f04-claude-round-d-reconcile-20260831",
+  "hash_algorithm": "SHA-256",
+  "redistribution": "Raw source files are not included; this manifest records the exact downloaded bytes used locally.",
+  "files": [
+    {
+      "source_identifier": "UCI Adult adult.data, 32561 rows",
+      "expected_local_path": "data/uci/adult.data",
+      "bytes": 3974305,
+      "sha256": "5B00264637DBFEC36BDEAAB5676B0B309FF9EB788D63554CA0A249491C86603D"
+    },
+    {
+      "source_identifier": "UCI Adult adult.test, 16281 rows",
+      "expected_local_path": "data/uci/adult.test",
+      "bytes": 2003153,
+      "sha256": "A2A9044BC167A35B2361EFBABEC64E89D69CE82D9790D2980119AAC5FD7E9C05"
+    },
+    {
+      "source_identifier": "2018 ACS 1-year PUMS Oregon person file archive",
+      "expected_local_path": "data/census_or_2018.zip",
+      "bytes": 7605668,
+      "sha256": "B30BF29E041D816BE73807C370475553010082808F63AEB4D8AE15501EE96DFA"
+    },
+    {
+      "source_identifier": "ProPublica COMPAS compas-scores-two-years.csv",
+      "expected_local_path": "data/compas/compas-scores-two-years.csv",
+      "bytes": 2546489,
+      "sha256": "C451DB85908B2F7FEF1D83203BEDF6B71ECDA0D5AF468D82AE62178F91D0CC7D"
+    },
+    {
+      "source_identifier": "UCI Statlog German Credit german.data",
+      "expected_local_path": "data/uci/german.data",
+      "bytes": 79793,
+      "sha256": "B21F3D81DB8071257D5FF1DEAEBA1FD4303B62712E6FCC9715C7A86202CB5871"
+    },
+    {
+      "source_identifier": "UCI South German Credit, dataset 573, SouthGermanCredit.asc",
+      "expected_local_path": "data/uci/sgc/SouthGermanCredit.asc",
+      "bytes": 47940,
+      "sha256": "5F363343F356CA38A0236BAAB849E472846399B2176CCC5BD686483DD8A7562F"
+    },
+    {
+      "source_identifier": "UCI Heart Disease processed.cleveland.data",
+      "expected_local_path": "data/heart_disease_uci/processed.cleveland.data",
+      "bytes": 18461,
+      "sha256": "A74B7EFA387BC9D108D7D0115D831FE9B414B29AE7124F331B622B4EFA0427C8"
+    },
+    {
+      "source_identifier": "UCI Heart Disease processed.hungarian.data",
+      "expected_local_path": "data/heart_disease_uci/processed.hungarian.data",
+      "bytes": 10263,
+      "sha256": "D1AD108F785768CD3D7E82DC522E6F5A61EEA93CCCFB3A46EE8076F73FC3D796"
+    },
+    {
+      "source_identifier": "UCI Heart Disease processed.switzerland.data",
+      "expected_local_path": "data/heart_disease_uci/processed.switzerland.data",
+      "bytes": 4109,
+      "sha256": "834A405CCF5B66AB4056BB77794ADC8DF0B7125186454C0A1D002D33C6C3B314"
+    },
+    {
+      "source_identifier": "UCI Heart Disease processed.va.data",
+      "expected_local_path": "data/heart_disease_uci/processed.va.data",
+      "bytes": 6737,
+      "sha256": "E7C93D8D0D2ACDADFA4C5E8DE768E2191E7F618B952E29623F1F0D5949FF6B8F"
+    }
+  ]
+}
