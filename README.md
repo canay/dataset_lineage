@@ -76,7 +76,7 @@ python protocol/src/test_fail_closed_v2.py \
   --config protocol/configs/profile_config_v2.json
 ```
 
-The clean-room contract and independent implementation are retained in `protocol/cleanroom/`. Gold labels are provided for test evaluation and are not read by the validators.
+The v2 validator imports the hash-pinned frozen v1 classifier retained at `2026-08-26_codex_local_comparison_admissibility_validation/src/validate_profile.py`; the embedded digest prevents silent classifier drift. The clean-room contract and independent implementation are retained in `protocol/cleanroom/`. Gold labels are provided for test evaluation and are not read by the validators.
 
 ## Evidence boundary
 
