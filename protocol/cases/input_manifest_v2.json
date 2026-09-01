@@ -4,10 +4,10 @@
   "cases_sha256": "4D6D0441EB9386E7B9B8707AA9118177CA78169E2C545E90539C8806E5ADDB0C",
   "expected_class_present_in_sanitized": false,
   "field_binding_count": 90,
-  "gold_path": "C:/DOCS/AKADEMIK/CALISMALAR/20_TASLAK_CALISMALAR/SCI-f04-dataset_lineage/experiments/2026-08-26_codex_local_comparison_admissibility_validation_v2/data_inputs/gold_labels_v2.json",
+  "gold_path": "<controlled-workspace>/SCI-f04-dataset_lineage/experiments/2026-08-26_codex_local_comparison_admissibility_validation_v2/data_inputs/gold_labels_v2.json",
   "gold_sha256": "F0EAE35F6FE93F244C9BA28447B192E373581EE4BAB1EF74191DC057F791D4F0",
   "profile_path": "MD/02_design/comparison_admissibility_profile_candidate_v2.md",
   "profile_sha256": "A4228E2A5DFE673637B11B43139CF63618BF71C338F91F23F89040AD07F83EB7",
-  "sanitized_jsonld_path": "C:/DOCS/AKADEMIK/CALISMALAR/20_TASLAK_CALISMALAR/SCI-f04-dataset_lineage/experiments/2026-08-26_codex_local_comparison_admissibility_validation_v2/data_inputs/cases_sanitized_v2.jsonld",
+  "sanitized_jsonld_path": "<controlled-workspace>/SCI-f04-dataset_lineage/experiments/2026-08-26_codex_local_comparison_admissibility_validation_v2/data_inputs/cases_sanitized_v2.jsonld",
   "sanitized_jsonld_sha256": "F424008182A001D9189228F488B7962738C4901E3DEFE4B1122B64923D726D5D"
 }
